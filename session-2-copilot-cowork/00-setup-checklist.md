@@ -1,4 +1,4 @@
-# Session 2 Setup: Copilot Cowork -Checklist (Business User)
+# Session 2 Setup: Copilot Cowork - Checklist (Business User)
 
 Use this checklist before event day.
 
@@ -24,10 +24,12 @@ Participants will use Copilot Cowork to complete business tasks across Microsoft
 
 ### 3. Cowork Visibility Check
 
-- [ ] Cowork is visible in left navigation or via Agent Store (All agents).
+- [ ] User can access 'All agents' section from the left navigation of Copilot chat.
   ![TODO screenshot: Locate Cowork in agent list](./assets/copilot-all-agent.png)
-- [ ] User can find andstart a Cowork (Frontier) chat.
+- [ ] Cowork is visible in left navigation or via Agent Store (All agents).
   ![TODO screenshot: Locate Cowork in agent list](./assets/copilot-cowork-agent.png)
+- [ ] User can see and interact with a Cowork chat.
+  ![TODO screenshot: Cowork chat with side panel visible](./assets/cowork-chat.png)
 
 
 ## Useful References

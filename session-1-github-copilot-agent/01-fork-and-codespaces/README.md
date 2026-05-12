@@ -10,7 +10,7 @@
 
 1. เปิด URL ของ Sample Project ด้านล่างในเบราว์เซอร์:
 
-   👉 **[https://github.com/teerasej/nextjs-notes-app](https://github.com/teerasej/nextjs-notes-app)**
+   👉 **[https://github.com/teerasej/nextflow-nextjs-note-app](https://github.com/teerasej/nextflow-nextjs-note-app)**
 
 2. มุมบนขวาของหน้า กดปุ่ม **Fork**
 

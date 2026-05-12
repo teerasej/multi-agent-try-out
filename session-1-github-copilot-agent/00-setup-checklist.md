@@ -1,40 +1,38 @@
-# Session 1 Setup: GitHub Copilot Agent - Checklist (Developer Audience)
+# Session 1 Setup: GitHub Copilot Agent — Checklist สำหรับนักพัฒนา
 
-Use this checklist before event day.
+ใช้ Checklist นี้เพื่อเตรียมความพร้อมเข้า session ก่อนวันจัดงานนะครับ
 
-## Session Outcome
+## เป้าหมายของ Session
 
-In this session, participants use GitHub Copilot Agent Mode to extend a real web app in Codespaces, review changes, and run the app.
+ใน Session นี้ ผู้เข้าร่วมจะใช้ GitHub Copilot Agent Mode เพื่อเพิ่มฟีเจอร์ให้กับ Web App จริง และรันแอปผ่าน Codespaces
 
-## What To Prepare
+## สิ่งที่ต้องเตรียม
 
-### 1. Account Readiness
+### 1. บัญชี GitHub
 
-- [ ] Personal GitHub account is created and email is verified.
-- [ ] GitHub account can sign in to github.com.
-- [ ] GitHub Copilot access is available (Free, Pro, Business, or Enterprise).
+- [ ] มีบัญชี GitHub ส่วนตัว (Personal Account) และยืนยัน Email แล้ว
+- [ ] Sign in เข้า github.com ได้
+- [ ] มีสิทธิ์ใช้งาน GitHub Copilot (Free, Pro, Business หรือ Enterprise) 
 
 ![GitHub sign-up page with Sign up button](./assets/github-signup.png)
 
-### 2. Browser and Network Readiness
+### 2. เบราว์เซอร์และการเชื่อมต่อ
 
-- [ ] Latest Microsoft Edge or Google Chrome is installed.
-- [ ] Network can access github.com, and codespaces.github.com.
-- [ ] Corporate firewall or proxy does not block GitHub Codespaces.
+- [ ] ติดตั้ง Microsoft Edge หรือ Google Chrome เวอร์ชันล่าสุดแล้ว
+- [ ] เข้าใช้งาน github.com และ codespaces.github.com ได้
+- [ ] Firewall หรือ Proxy ขององค์กรไม่ได้บล็อก GitHub Codespaces
 
+### 3. เปิดใช้งาน GitHub Copilot สำหรับ Free Account
 
-### 3. Github Copilot Activation for free accounts
+[![วิธีเปิดใช้งาน GitHub Copilot](./assets/activate-github-copilot-activation.png)](https://www.youtube.com/watch?v=KQswAnDgf2g)
 
-[![alt text](./assets/activate-github-copilot-activation.png)](https://www.youtube.com/watch?v=KQswAnDgf2g)
+### 4. ทดสอบด้วยตัวเอง (3 นาที)
 
-### 5. Quick Self-Test (3 Minutes)
+1. Sign in เข้า GitHub
+2. เปิด Repository ใดก็ได้ในเบราว์เซอร์
 
-1. Sign in to GitHub.
-2. Open any repository in browser.
+## ลิงก์อ้างอิง
 
-
-## Useful References
-
-- GitHub account setup: https://github.com
-- GitHub Copilot docs: https://docs.github.com/copilot
-- Microsoft Learn (agent mode concept): https://learn.microsoft.com/visualstudio/ide/copilot-agent-mode
+- สมัครบัญชี GitHub: https://github.com
+- เอกสาร GitHub Copilot: https://docs.github.com/copilot
+- Microsoft Learn (แนวคิด Agent Mode): https://learn.microsoft.com/visualstudio/ide/copilot-agent-mode

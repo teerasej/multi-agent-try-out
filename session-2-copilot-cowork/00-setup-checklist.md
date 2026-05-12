@@ -6,13 +6,13 @@ Use this checklist before event day.
 
 Participants will use Copilot Cowork to complete business tasks across Microsoft 365 with action approvals, while staying in control.
 
-## What To Prepare (Send to Audience)
+## What To Prepare
 
 ### 1. Licensing and Access
 
 - [ ] Microsoft 365 Copilot license is active.
 - [ ] Tenant is enrolled in Frontier preview for Cowork.
-- [ ] Account can access https://m365.cloud.microsoft.
+- [ ] Account can access https://m365copilot.com/.
 
 ### 2. Environment Readiness
 

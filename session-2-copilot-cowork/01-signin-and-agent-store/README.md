@@ -11,6 +11,12 @@
 
 กดลิงก์ด้านล่างเพื่อดาวน์โหลดไฟล์ตัวอย่างสำหรับ Session นี้ลงในเครื่อง:
 
+หรือดาวน์โหลดทั้งหมดในคราวเดียว:
+
+- 📦 **[session-2-sample-files.zip — ดาวน์โหลดทุกไฟล์ในครั้งเดียว](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/session-2-sample-files.zip)**
+
+หรือดาวน์โหลดทีละไฟล์:
+
 - 📄 [meeting-notes.docx — บันทึกการประชุม Q2 Planning](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/meeting-notes.docx)
 - 📊 [project-tasks.xlsx — Task Tracker โปรเจกต์ Website Redesign](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-tasks.xlsx)
 - 📑 [project-overview.pptx — Project Overview Presentation](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-overview.pptx)

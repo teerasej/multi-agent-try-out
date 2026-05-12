@@ -47,6 +47,7 @@ Event นี้แบ่งออกเป็น 2 Track:
 
 | ไฟล์ | ใช้ใน |
 |---|---|
+| 📦 [**session-2-sample-files.zip** — ทุกไฟล์รวมในครั้งเดียว](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/session-2-sample-files.zip) | ทุก Exercise |
 | [meeting-notes.docx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/meeting-notes.docx) | Exercise 04 |
 | [project-tasks.xlsx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-tasks.xlsx) | Exercise 05 |
 | [project-overview.pptx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-overview.pptx) | ไฟล์อ้างอิง |

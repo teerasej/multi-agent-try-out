@@ -13,7 +13,7 @@ Event นี้แบ่งออกเป็น 2 Track:
 
 ## Session 1 — GitHub Copilot Agent Mode
 
-🄓 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
+ใช้ได้ทั้ง GitHub Copilot Free และ Pro
 
 | # | แบบฝึกหัด | สิ่งที่จะได้เรียนรู้ |
 |---|---|---|

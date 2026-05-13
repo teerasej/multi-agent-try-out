@@ -1,6 +1,6 @@
 # Exercise 02: สำรวจโปรเจกต์ด้วย Copilot Chat
 
-🄓 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
+🔑 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
 
 แบบฝึกหัดนี้จะใช้ **Copilot Chat** เพื่อถามให้ AI อธิบายสถาปัตยกรรมของโปรเจกต์ให้ฟัง — เหมาะมากสำหรับการทำความเข้าใจ Codebase ใหม่ ๆ อย่างรวดเร็ว
 

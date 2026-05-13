@@ -1,6 +1,6 @@
 # Exercise 03: วางแผนฟีเจอร์ด้วย Plan Mode
 
-🄓 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
+🔑 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
 
 **Plan Mode** คือโหมดที่ Copilot จะ *วางแผน* ก่อนลงมือแก้ไขโค้ด — เหมาะมากสำหรับการทำความเข้าใจขอบเขตของงานก่อนให้ AI ลงมือทำจริง
 

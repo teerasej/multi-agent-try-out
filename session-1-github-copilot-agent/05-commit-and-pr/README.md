@@ -1,6 +1,6 @@
 # Exercise 05: Commit, Push และสร้าง Pull Request
 
-🄓 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
+🔑 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
 
 แบบฝึกหัดสุดท้ายของ Session นี้ — เราจะให้ Copilot ช่วย Commit การเปลี่ยนแปลงทั้งหมด, Push ไปยัง Repository ของเรา แล้วสร้าง Pull Request บน GitHub
 

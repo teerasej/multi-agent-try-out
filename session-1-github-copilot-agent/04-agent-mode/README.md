@@ -1,6 +1,6 @@
 # Exercise 04: พัฒนาฟีเจอร์อัตโนมัติด้วย Agent Mode
 
-🄓 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
+🔑 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
 
 **Agent Mode** คือโหมดที่ทรงพลังที่สุดของ Copilot — AI จะวางแผน แก้ไขไฟล์ รันคำสั่ง และแก้ Error ซ้ำ ๆ จนงานเสร็จโดยอัตโนมัติ ในแบบฝึกหัดนี้เราจะให้ Copilot เพิ่มฟีเจอร์ **"Pin Note"** ให้แอปของเรา
 

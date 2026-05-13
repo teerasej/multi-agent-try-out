@@ -1,6 +1,6 @@
 # Exercise 01: Fork Repo และเริ่ม Codespaces
 
-🄓 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
+🔑 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
 
 ในแบบฝึกหัดนี้ เราจะเปิด Sample Project ที่เตรียมไว้, Fork เข้าบัญชีของตัวเอง แล้วเปิดใช้งาน **GitHub Codespaces** เพื่อเริ่มเขียนโค้ดในเบราว์เซอร์ได้ทันที โดยไม่ต้องติดตั้งอะไรบนเครื่อง
 

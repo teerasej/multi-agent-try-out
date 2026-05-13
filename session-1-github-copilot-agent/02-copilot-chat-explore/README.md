@@ -12,9 +12,9 @@
 
    ![Copilot Chat panel icon](./assets/copilot-chat-icon.png)
 
-2. ในช่อง Chat กดที่ชื่อ Model ด้านบน (เช่น "GPT-4o") เพื่อเปิด Dropdown เลือก Model
+2. ในช่อง Chat กดที่ชื่อ Model (Auto) ด้านล่างสุด เพื่อเปิด Dropdown เลือก Model
 
-3. เลือก Model ที่ต้องการ เช่น **Claude Sonnet** หรือ **GPT-4o** แล้วกด Confirm
+3. คลิกเลือก Model ที่ต้องการ เช่น **Claude Haiku**, **Claude Sonnet** หรือ **GPT-4o** 
 
 > **💡 เคล็ดลับ:** ถ้าเห็น **Reasoning** option ให้ลองเปิดดู — Copilot จะคิดวิเคราะห์ลึกขึ้น เหมาะกับโจทย์ที่ซับซ้อน
 
@@ -25,7 +25,7 @@
 1. ในช่อง Chat ให้พิมพ์หรือวาง Prompt ด้านล่างแล้วกด Enter:
 
    ```
-   Explain the overall architecture of this project. What are the main files and what does each one do?
+   Explain the overall architecture of this project. What are the main files and what does each one do? Response in Thai
    ```
 
 2. รอสักครู่ — Copilot จะอ่านไฟล์ในโปรเจกต์และอธิบายให้ฟัง

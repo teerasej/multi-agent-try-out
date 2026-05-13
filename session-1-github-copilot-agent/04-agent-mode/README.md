@@ -9,10 +9,8 @@
 ## Feature 1: เปิด Agent Mode
 
 1. ใน Copilot Chat panel กดที่ Dropdown ชื่อ Mode ด้านล่างของช่อง Chat
+2. ให้แน่ใจว่าได้เลือก **Agent**
 
-2. เลือก **Agent**
-
-   ![Agent mode selector](./assets/copilot-agent-mode.png)
 
 ---
 
@@ -24,14 +22,18 @@
    Add a "pin note" feature. Each note card should have a pin icon button. Pinned notes should appear at the top of the notes list.
    ```
 
-2. สังเกตการทำงานของ Copilot:
+2. ด้านล่างของช่อง Prompt ใน Copilot Chat จะมีปุ่ม Set Permission ที่แสดงว่า **Default Approval** อยู่ ให้คลิกเลือกเปลี่ยนเป็น **Bypass Approvals** เพื่อให้ Copilot สามารถใช้ tools ต่างๆ ได้อย่างอิสระโดยไม่ต้องขออนุญาตเป็นระยะๆ
+
+   ![bypass approvals](./assets/bypass-approvals.png)
+
+3. สังเกตการทำงานของ Copilot:
    - Copilot จะเริ่มอ่านไฟล์ที่เกี่ยวข้อง
    - แก้ไขหลายไฟล์พร้อมกัน เช่น `lib/notes.ts`, `components/NoteCard.tsx`, `app/page.tsx`
    - อาจรันคำสั่ง Terminal เพื่อตรวจสอบ
 
-3. ถ้า Copilot ขอ Confirm ก่อนรันคำสั่ง ให้กด **Continue** เพื่อให้ดำเนินต่อ
+4. ถ้า Copilot ขอ Confirm ก่อนรันคำสั่ง ให้กด **Allow** เพื่อให้ดำเนินการต่อ
 
-4. เมื่อเสร็จแล้ว กลับไปดู Preview ของแอปในเบราว์เซอร์ และลอง:
+5. เมื่อเสร็จแล้ว กลับไปดู Preview ของแอปในเบราว์เซอร์ และลอง:
    - กด Pin icon บนการ์ด Note
    - สังเกตว่า Note ที่ Pin แล้วจะขึ้นมาอยู่ด้านบนของ List
 

@@ -12,15 +12,13 @@
 
    👉 **[https://github.com/teerasej/nextflow-nextjs-note-app](https://github.com/teerasej/nextflow-nextjs-note-app)**
 
-2. มุมบนขวาของหน้า กดปุ่ม **Fork**
+2. มุมบนขวาของหน้า กดปุ่ม **Fork** 
 
-   ![GitHub Fork button](./assets/github-fork.png)
+3. ในหน้าจอ "Create a new fork" — ตรวจสอบว่าชื่อ **Owner** เป็นชื่อบัญชีของเรา แล้วกด **Create fork**
 
-3. หน้าจอ "Create a new fork" จะปรากฏ — ตรวจสอบว่า **Owner** เป็นบัญชีของคุณ แล้วกด **Create fork**
+4. รอสักครู่ — GitHub จะพาเราเข้าไปยัง Repo ที่ Fork แล้วในบัญชีของเรา
 
-4. รอสักครู่ — GitHub จะพาคุณเข้าไปยัง Repo ที่ Fork แล้วในบัญชีของคุณ
-
-> **💡 เคล็ดลับ:** Fork คือการคัดลอก Repo มาไว้ในบัญชีของตัวเอง คุณจึงสามารถแก้ไขโค้ดได้อย่างอิสระโดยไม่กระทบ Repo ต้นฉบับ
+> **💡 เคล็ดลับ:** Fork คือการคัดลอก Repo มาไว้ในบัญชีของตัวเอง เราจึงสามารถแก้ไขโค้ดได้อย่างอิสระโดยไม่กระทบ Repo ต้นฉบับ
 
 ---
 
@@ -36,13 +34,15 @@
 
 4. รอให้ Codespaces ตั้งค่าเสร็จ (ใช้เวลาประมาณ 1–2 นาที) — คุณจะเห็น VS Code เปิดขึ้นมาในเบราว์เซอร์
 
-5. เปิด Terminal ใน VS Code (กด `` Ctrl+` `` หรือ `` Cmd+` ``) แล้วรันคำสั่ง:
+5. เปิด **Copilot Chat** panel ด้านขวาใน VS Code แล้วพิมพ์ Prompt นี้:
 
-   ```bash
-   npm run dev
+   ```text
+   run this app
    ```
 
-6. เมื่อแอปพร้อม จะมีป๊อปอัพแจ้งว่า **"Your application running on port 3000 is available"** — กด **Open in Browser** เพื่อดูหน้าตาของแอป
+6. Copilot จะเริ่มช่วยรันแอปให้เรา และจะถาม permission เป็นระยะๆ ก่อนทำขั้นตอนถัดไป ให้กดอนุญาตเพื่อให้ process เดินหน้าต่อ
+
+7. เมื่อแอปพร้อม จะมีป๊อปอัพแจ้งว่า **"Your application running on port 3000 is available"** — กด **Open in Browser** เพื่อดูหน้าตาของแอป
 
 > **⚠️ หมายเหตุ:** ถ้าไม่มีป๊อปอัพ ให้กดที่ไอคอน **Ports** ด้านล่าง แล้วคลิก URL ของ Port 3000 เพื่อเปิดแอป
 

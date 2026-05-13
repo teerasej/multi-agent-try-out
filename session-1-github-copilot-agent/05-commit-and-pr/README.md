@@ -9,19 +9,22 @@
 ## Feature 1: Commit การเปลี่ยนแปลงผ่าน Copilot
 
 1. ใน Copilot Chat panel ตรวจสอบว่า Mode ยังเป็น **Agent** อยู่
+2. กดปุ่ม (←) ด้านบนซ้ายของช่อง Chat เพื่อย้อนกลับไปยังหน้ารวม Session จะเห็นรายการของ Session Chat ที่เราคุยกับ Copilot มาแล้วทั้งหมด 
 
-2. พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
+3. ลงมาในช่อง Prompt ด้านล่าง พิมพ์หรือก้อปปี้ และวาง Prompt ด้านล่างลงไป แล้วกด Enter:
 
    ```
-   Stage all changes and create a commit with an appropriate commit message describing the features we added.
+   1. Create a branch
+   2. Stage all changes and create a commit with an appropriate commit message describing the features we added.
    ```
 
-3. Copilot จะ:
+4. Copilot จะ:
+   - สร้าง Branch ใหม่ให้โดยอัตโนมัติ (เช่น `feature/pin-note`)
    - Stage ไฟล์ที่เปลี่ยนแปลงทั้งหมด
    - สร้าง Commit message ที่สอดคล้องกับงานที่ทำ
    - แสดงคำสั่ง `git commit` ให้ Confirm
 
-4. ถ้า Copilot ขอ Confirm ก่อนรัน Terminal command ให้กด **Continue**
+5. ถ้า Copilot ขอ Confirm ก่อนรัน Terminal command ให้กด **Continue**
 
 ---
 
@@ -41,19 +44,20 @@
 
 ## Feature 3: สร้าง Pull Request บน GitHub
 
-1. เปิด Tab ใหม่ในเบราว์เซอร์ แล้วไปที่ Repository ที่คุณ Fork ไว้:
+1. กลับไปที่ Copilot Chat panel แล้วพิมพ์หรือวาง Prompt ด้านล่าง จากนั้นกด Enter:
 
-   `https://github.com/[ชื่อ Account ของคุณ]/nextjs-notes-app`
+   ```
+   Create pull request to merge this branch into the origin repo's main branch. Summarize a useful information for its description in Thai
+   ```
 
-2. GitHub จะแสดง Banner **"Compare & pull request"** — กดปุ่มนั้น
+2. Copilot จะเตรียมการสร้าง Pull Request ให้ โดยอาจแสดงรายละเอียด Title และ Description ที่สรุปจากงานที่เราทำไว้
 
-   ![Compare and pull request banner](./assets/github-pr-banner.png)
+3. ถ้า Copilot ขอ Confirm ก่อนดำเนินการ ให้กด **Continue**
 
-3. ตรวจสอบ Title และ Description ของ Pull Request แล้วกด **Create pull request**
+4. เมื่อสร้างเสร็จแล้ว Copilot มักจะแสดงลิงก์หรือแจ้งว่า Pull Request ถูกสร้างเรียบร้อย ให้สังเกตหมายเลข PR หรือ URL ที่ได้
 
-4. ดูหน้า Pull Request ที่สร้างขึ้น — กด Tab **Files changed** เพื่อดูไฟล์ที่มีการเปลี่ยนแปลง
 
-> **💡 เคล็ดลับ:** ใน Copilot Chat ลองพิมพ์ `Create a pull request` — Copilot บางเวอร์ชันสามารถสร้าง PR ให้ผ่าน Chat ได้โดยตรง
+> **💡 เคล็ดลับ:** ถ้า Copilot แสดงลิงก์ PR มาให้แล้ว คุณสามารถกดลิงก์นั้นเพื่อเปิดหน้า Pull Request บน GitHub ได้ทันที
 
 ---
 

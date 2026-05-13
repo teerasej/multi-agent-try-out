@@ -19,7 +19,7 @@
 1. ในช่อง Chat พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
 
    ```
-   Add a "pin note" feature. Each note card should have a pin icon button. Pinned notes should appear at the top of the notes list.
+   Add a "pin note" feature. Each note card should have a pin icon button. Pinned notes should appear at the top of the notes list. 
    ```
 
 2. ด้านล่างของช่อง Prompt ใน Copilot Chat จะมีปุ่ม Set Permission ที่แสดงว่า **Default Approval** อยู่ ให้คลิกเลือกเปลี่ยนเป็น **Bypass Approvals** เพื่อให้ Copilot สามารถใช้ tools ต่างๆ ได้อย่างอิสระโดยไม่ต้องขออนุญาตเป็นระยะๆ

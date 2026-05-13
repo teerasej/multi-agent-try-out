@@ -38,3 +38,7 @@
 ## สรุป
 
 คุณได้สร้าง Excel Task Tracker พร้อมข้อมูลตัวอย่างด้วย Cowork สำเร็จแล้ว ในแบบฝึกหัดถัดไป เราจะลองให้ Cowork อ่านไฟล์ที่เราอัปโหลดเองเพื่อสร้าง Presentation
+
+---
+
+แบบฝึกหัดถัดไป: [Exercise 04: สร้าง Presentation จากไฟล์เอกสาร](../04-create-presentation-from-file/README.md)

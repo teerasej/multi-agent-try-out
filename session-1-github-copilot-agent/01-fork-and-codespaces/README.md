@@ -51,3 +51,7 @@
 ## สรุป
 
 คุณได้ Fork repository และเปิด Codespaces เพื่อเขียนโค้ดในเบราว์เซอร์สำเร็จแล้ว ขั้นต่อไปเราจะเริ่มใช้ **GitHub Copilot Chat** เพื่อสำรวจโปรเจกต์นี้ด้วยกัน
+
+---
+
+แบบฝึกหัดถัดไป: [Exercise 02: สำรวจโปรเจกต์ด้วย Copilot Chat](../02-copilot-chat-explore/README.md)

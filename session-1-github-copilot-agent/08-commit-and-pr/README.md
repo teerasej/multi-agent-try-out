@@ -1,8 +1,8 @@
-# Exercise 05: Commit, Push และสร้าง Pull Request
+# Exercise 08: Commit, Push และสร้าง Pull Request
 
 🔑 ใช้ได้ทั้ง GitHub Copilot Free และ Pro
 
-แบบฝึกหัดสุดท้ายของ Session นี้ — เราจะให้ Copilot ช่วย Commit การเปลี่ยนแปลงทั้งหมด, Push ไปยัง Repository ของเรา แล้วสร้าง Pull Request บน GitHub
+แบบฝึกหัดสุดท้ายของ Session นี้ — หลังจากเราได้ลองทั้ง Agent Mode, `Custom Prompt`, `Skill` และ `Custom Agent` แล้ว เราจะให้ Copilot ช่วย Commit การเปลี่ยนแปลงทั้งหมด, Push ไปยัง Repository ของเรา แล้วสร้าง Pull Request บน GitHub
 
 ---
 
@@ -69,6 +69,9 @@
 - ✅ ใช้ Copilot Chat อธิบาย Architecture
 - ✅ ใช้ Plan Mode วางแผนฟีเจอร์
 - ✅ ใช้ Agent Mode เพิ่มฟีเจอร์ Pin Note
+- ✅ สร้าง Custom Prompt สำหรับงานที่ทำซ้ำบ่อย
+- ✅ สร้าง Skill สำหรับ workflow ของโปรเจกต์
+- ✅ สร้าง Custom Agent สำหรับ Code Review
 - ✅ Commit, Push และสร้าง Pull Request
 
 GitHub Copilot Agent Mode ช่วยให้เราโฟกัสกับ **ไอเดีย** ได้มากขึ้น โดยปล่อยให้ AI จัดการขั้นตอนที่ซ้ำซาก

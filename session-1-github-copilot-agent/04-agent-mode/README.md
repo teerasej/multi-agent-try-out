@@ -45,8 +45,8 @@
 
 ## สรุป
 
-คุณได้ใช้ Agent Mode ให้ Copilot เพิ่มฟีเจอร์ใหม่แบบ Autonomous ได้สำเร็จ ในแบบฝึกหัดสุดท้าย เราจะให้ Copilot ช่วย Commit และสร้าง Pull Request บน GitHub
+คุณได้ใช้ Agent Mode ให้ Copilot เพิ่มฟีเจอร์ใหม่แบบ Autonomous ได้สำเร็จ ขั้นถัดไปเราจะเริ่มปรับแต่งวิธีทำงานของ Copilot เอง โดยเริ่มจาก `Custom Prompt` สำหรับงานที่ต้องทำซ้ำบ่อย
 
 ---
 
-แบบฝึกหัดถัดไป: [Exercise 05: Commit, Push และสร้าง Pull Request](../05-commit-and-pr/README.md)
+แบบฝึกหัดถัดไป: [Exercise 05: สร้าง Custom Prompt สำหรับงานที่ทำซ้ำบ่อย](../05-custom-prompt/README.md)

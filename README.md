@@ -22,7 +22,10 @@ Event นี้แบ่งออกเป็น 2 Track:
 | 02 | [สำรวจโปรเจกต์ด้วย Copilot Chat](./session-1-github-copilot-agent/02-copilot-chat-explore/README.md) | เลือก Model, ปรับ Reasoning และ Prompt ให้ Copilot อธิบาย Architecture |
 | 03 | [วางแผนฟีเจอร์ด้วย Plan Mode](./session-1-github-copilot-agent/03-plan-mode/README.md) | ใช้ Plan Mode วางแผนฟีเจอร์ก่อน Start Implementation |
 | 04 | [พัฒนาฟีเจอร์อัตโนมัติด้วย Agent Mode](./session-1-github-copilot-agent/04-agent-mode/README.md) | ให้ Agent Mode เพิ่มฟีเจอร์ใหม่แบบ Autonomous หลายไฟล์พร้อมกัน |
-| 05 | [Commit, Push และสร้าง Pull Request](./session-1-github-copilot-agent/05-commit-and-pr/README.md) | ให้ Copilot ช่วย Commit, Push และสร้าง Pull Request บน GitHub |
+| 05 | [สร้าง Custom Prompt สำหรับงานที่ทำซ้ำบ่อย](./session-1-github-copilot-agent/05-custom-prompt/README.md) | สร้าง `.prompt.md` เพื่อแปลงไอเดียสั้น ๆ ให้เป็น prompt ที่พร้อมใช้ต่อ |
+| 06 | [สร้าง Skill สำหรับ workflow ของโปรเจกต์](./session-1-github-copilot-agent/06-custom-skill/README.md) | สร้าง `SKILL.md` เพื่อสอน workflow ซ้ำ ๆ ของ note app ให้ Copilot |
+| 07 | [สร้าง Custom Agent สำหรับ Code Review](./session-1-github-copilot-agent/07-custom-agent/README.md) | สร้าง `.agent.md` สำหรับ review งานก่อนเปิด Pull Request |
+| 08 | [Commit, Push และสร้าง Pull Request](./session-1-github-copilot-agent/08-commit-and-pr/README.md) | ให้ Copilot ช่วย Commit, Push และสร้าง Pull Request บน GitHub |
 
 ---
 

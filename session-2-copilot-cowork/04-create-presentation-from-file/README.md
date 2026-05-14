@@ -28,6 +28,10 @@
    ```
    จากไฟล์ที่แนบมา ให้สร้าง PowerPoint Presentation สรุปประเด็นสำคัญ พร้อม action items โดยแบ่งเป็น 4 สไลด์
    ```
+   หรือจะอ้างอิงไฟล์โดยตรงก็ได้ เช่น
+   ```
+   จากไฟล์ meeting-note.docx ให้สร้าง PowerPoint Presentation สรุปประเด็นสำคัญ พร้อม action items โดยแบ่งเป็น 4 สไลด์
+   ```
 
 5. สังเกตการทำงานของ Cowork:
    - Cowork จะอ่านเนื้อหาในไฟล์ `meeting-notes.docx`

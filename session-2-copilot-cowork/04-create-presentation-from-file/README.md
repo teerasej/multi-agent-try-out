@@ -1,17 +1,20 @@
-# Exercise 04: สร้าง Presentation จากไฟล์เอกสาร
+# Exercise 04: สร้าง Presentation จาก Brief และ Tracker
 
 🔑 ต้องการ M365 Copilot License
 🔑 ต้องเปิดใช้งาน Cowork (Frontier preview)
 
-แบบฝึกหัดนี้จะแสดงให้เห็นความสามารถของ Cowork ในการ **อ่านไฟล์ที่เราแนบ** แล้วสร้าง PowerPoint Presentation สรุปเนื้อหาให้อัตโนมัติ
+แบบฝึกหัดนี้จะต่อ workflow จากสองข้อก่อนหน้า โดยให้ Cowork ใช้ไฟล์ Follow-up Brief และไฟล์ action tracker เพื่อสร้าง **PowerPoint Presentation สำหรับสรุปความคืบหน้า** ที่พร้อมใช้คุยกับหัวหน้าหรือทีมต่อได้ทันที
 
 ---
 
 ## ไฟล์ที่ต้องการ
 
-📄 [meeting-notes.docx — ดาวน์โหลดที่นี่](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/meeting-notes.docx)
+ใช้ไฟล์ 2 ชุดที่ได้จาก exercise ก่อนหน้า:
 
-> ถ้ายังไม่ได้ดาวน์โหลด ให้กดลิงก์ด้านบนเพื่อดาวน์โหลดก่อน แล้วบันทึกไว้ที่ Desktop หรือ Downloads
+- ไฟล์ Word Follow-up Brief จาก Exercise 02
+- ไฟล์ Excel action tracker จาก Exercise 03
+
+> **⚠️ หมายเหตุ:** ถ้าหาไฟล์ที่ Cowork สร้างไว้ไม่เจอ ให้แนบไฟล์ `meeting-notes.docx` แทนได้ แต่ถ้าใช้ไฟล์จาก exercise ก่อนหน้า จะเห็น workflow ต่อเนื่องชัดกว่า
 
 ---
 
@@ -19,26 +22,24 @@
 
 1. เปิด Cowork Chat ใหม่
 
-2. กดปุ่ม **+** (Add attachment) ในช่อง Prompt เพื่อแนบไฟล์
+2. กดปุ่ม **+** (Add attachment) ในช่อง Prompt เพื่อแนบไฟล์ Word Follow-up Brief และไฟล์ Excel action tracker
 
-3. เลือกไฟล์ **meeting-notes.docx** ที่ดาวน์โหลดมา
-
-4. หลังจากแนบไฟล์แล้ว พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
+3. หลังจากแนบไฟล์แล้ว พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
 
    ```
-   จากไฟล์ที่แนบมา ให้สร้าง PowerPoint Presentation สรุปประเด็นสำคัญ พร้อม action items โดยแบ่งเป็น 4 สไลด์
-   ```
-   หรือจะอ้างอิงไฟล์โดยตรงก็ได้ เช่น
-   ```
-   จากไฟล์ meeting-note.docx ให้สร้าง PowerPoint Presentation สรุปประเด็นสำคัญ พร้อม action items โดยแบ่งเป็น 4 สไลด์
+   จากไฟล์ที่แนบมา ช่วยสร้าง PowerPoint Presentation สำหรับสรุปความคืบหน้าในการประชุม โดยแบ่งเป็น 4 สไลด์: 1) ภาพรวม 2) decisions สำคัญ 3) action items ที่ต้องติดตาม 4) next steps
    ```
 
-5. สังเกตการทำงานของ Cowork:
-   - Cowork จะอ่านเนื้อหาในไฟล์ `meeting-notes.docx`
+4. สังเกตการทำงานของ Cowork:
+   - Cowork จะอ่านข้อมูลจากหลายไฟล์ที่เราแนบ
    - แสดงแผนการทำงาน และระบุว่ากำลังใช้ Skill **PowerPoint**
    - ถ้ามีปุ่ม **Approve** ให้กดเพื่อยืนยัน
 
-6. เมื่อ Cowork สร้างไฟล์เสร็จ กดที่ลิงก์ไฟล์ PowerPoint เพื่อเปิดและดู Slide ทั้ง 4
+5. เมื่อ Cowork สร้างไฟล์เสร็จ กดที่ลิงก์ไฟล์ PowerPoint เพื่อเปิดและดู Slide ทั้ง 4
+
+6. ตรวจสอบว่าสไลด์สรุปข้อมูลจากทั้งฝั่ง narrative และฝั่ง task list ได้เข้าใจง่าย
+
+7. จดชื่อไฟล์ PowerPoint นี้ไว้ หรือเปิดค้างไว้ก่อน เพราะเราจะใช้ต่อใน Exercise 05
 
 > **💡 เคล็ดลับ:** สังเกตว่า Cowork จะสรุปเฉพาะประเด็นสำคัญ ไม่ได้คัดลอกทั้งเอกสาร — นี่คือประโยชน์ของ AI ที่ช่วย "กลั่น" ข้อมูล
 
@@ -46,8 +47,8 @@
 
 ## สรุป
 
-คุณได้ให้ Cowork อ่านเอกสารและสร้าง Presentation สรุปสำเร็จแล้ว ในแบบฝึกหัดสุดท้าย เราจะลองสั่งงานที่ซับซ้อนขึ้น — ให้ Cowork ทำงานหลายขั้นตอนพร้อมกัน
+คุณได้ใช้ Cowork รวมข้อมูลจากหลายไฟล์แล้วเปลี่ยนเป็น Presentation ที่พร้อมใช้ต่อในการสื่อสารแล้ว ในแบบฝึกหัดสุดท้าย เราจะใช้ไฟล์ที่สร้างมาทั้งหมดต่อเพื่อร่าง follow-up email แบบหลายขั้นตอน
 
 ---
 
-แบบฝึกหัดถัดไป: [Exercise 05: งานหลายขั้นตอน — สร้างเอกสารและร่าง Email](../05-multi-step-email/README.md)
+แบบฝึกหัดถัดไป: [Exercise 05: งานหลายขั้นตอน — ร่าง Follow-up Email จากไฟล์ที่สร้างไว้](../05-multi-step-email/README.md)

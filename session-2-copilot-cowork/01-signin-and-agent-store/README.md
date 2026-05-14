@@ -65,4 +65,4 @@
 
 ---
 
-แบบฝึกหัดถัดไป: [Exercise 02: สร้างเอกสาร Word ด้วย Cowork](../02-create-document/README.md)
+แบบฝึกหัดถัดไป: [Exercise 02: สร้างเอกสาร Follow-up Brief ด้วย Cowork](../02-create-document/README.md)

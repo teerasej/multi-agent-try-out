@@ -8,9 +8,14 @@
 
 ## Feature 1: สร้างไฟล์ .agent.md
 
-1. ใน root ของ note app สร้างโฟลเดอร์ `.github/agents`
-2. สร้างไฟล์ `.github/agents/code-reviewer.agent.md`
-3. วางเนื้อหาด้านล่างลงไป:
+1. คัดลอกชื่อและที่อยู่ไฟล์ด้านล่างนี้ไว้:
+
+   ```
+   .github/agents/code-reviewer.agent.md
+   ```
+2. คลิกขวาในพื้นที่ว่างใน VS Code Explorer แล้วเลือก **New File**
+3. วางชื่อไฟล์ที่คัดลอกไว้ลงไป แล้วกด Enter เพื่อสร้างไฟล์ใหม่ ตามที่อยู่ที่ระบุไว้
+4. วางเนื้อหาด้านล่างลงไป:
 
    ```markdown
    ---
@@ -38,7 +43,7 @@
    - Write the summary in Thai.
    ```
 
-4. กด Save แล้วสังเกตว่า agent นี้มี persona ชัด และจำกัด tools ไว้แค่ `read` กับ `search` เพื่อให้มันทำหน้าที่ reviewer อย่างเดียว
+5. กด Save แล้วสังเกตว่า agent นี้มี persona ชัด และจำกัด tools ไว้แค่ `read` กับ `search` เพื่อให้มันทำหน้าที่ reviewer อย่างเดียว
 
 > **💡 เคล็ดลับ:** จุดเด่นของ custom agent คือเรากำหนดบทบาทและขอบเขตให้ชัดได้ เช่น reviewer, tester, doc writer หรือ security reviewer
 

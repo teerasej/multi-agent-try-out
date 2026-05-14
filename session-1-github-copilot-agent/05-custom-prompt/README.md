@@ -8,9 +8,14 @@
 
 ## Feature 1: สร้าง Prompt file
 
-1. ใน root ของ note app สร้างโฟลเดอร์ `.github/prompts`
-2. สร้างไฟล์ `.github/prompts/feature-request-refiner.prompt.md`
-3. วางเนื้อหาด้านล่างลงไปในไฟล์:
+1. คัดลอกชื่อและที่อยู่ไฟล์ด้านล่างนี้ไว้:
+
+   ```
+   .github/prompts/feature-request-refiner.prompt.md
+   ```
+2. คลิกขวาในพื้นที่ว่างใน VS Code Explorer แล้วเลือก **New File**
+3. วางชื่อไฟล์ที่คัดลอกไว้ลงไป แล้วกด Enter เพื่อสร้างไฟล์ใหม่ ตามที่อยู่ที่ระบุไว้
+4. ในไฟล์ `feature-request-refiner.prompt.md` ที่สร้างขึ้นมาใหม่ ให้ copy และวางเนื้อหาด้านล่างลงไป:
 
    ```markdown
    ---
@@ -37,7 +42,7 @@
    - lib/notes.ts
    ```
 
-4. กด Save แล้วสังเกตว่าเราได้ reusable prompt ที่เรียกใช้ซ้ำได้จาก Chat โดยไม่ต้องพิมพ์ prompt ยาวใหม่ทุกครั้ง
+5. กด Save แล้วสังเกตว่าเราได้ reusable prompt ที่เรียกใช้ซ้ำได้จาก Chat โดยไม่ต้องพิมพ์ prompt ยาวใหม่ทุกครั้ง
 
 > **💡 เคล็ดลับ:** จุดเด่นของ `.prompt.md` คือเหมาะกับงานเดี่ยวที่ชัดเจนมาก ๆ เช่น ช่วย refine requirement, สร้าง test cases, หรือเขียน README จากข้อมูลตั้งต้น
 
@@ -59,7 +64,12 @@
    - มี Acceptance criteria
    - มี Validation checklist พร้อมใช้ต่อ
 
-5. ลอง copy ผลลัพธ์ที่ได้ไปใช้ต่อใน Plan Mode หรือ Agent Mode แล้วเปรียบเทียบกับการพิมพ์ prompt สดเอง
+5. ลองทดสอบผลลัพธ์ที่ได้ด้วยการเปลี่ยน Copilot Chat เป็น Agent mode แล้วสั่งให้ทำตาม prompt ที่ได้จาก `Feature Request Refiner` ดูว่า Copilot จะวางแผนและแก้ไขไฟล์อย่างไร
+
+
+   ```
+   implement this feature and rerun the app to preview the changes. If there are any errors, fix them until the feature works as expected.
+   ```
 
 > **⚠️ หมายเหตุ:** ถ้า prompt ยังไม่แสดงในรายการ slash command ให้ลอง Save ไฟล์อีกครั้ง หรือเริ่ม chat ใหม่หนึ่งรอบ
 

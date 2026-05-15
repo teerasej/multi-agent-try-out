@@ -20,6 +20,11 @@
    ```
    จากไฟล์ที่แนบมา ช่วยสร้างไฟล์ Excel สำหรับ action tracker โดยมีคอลัมน์: Task, Owner, Status, Due Date และ Notes แล้วดึง action items จากเอกสารมาใส่ให้ครบเท่าที่มี
    ```
+   หรือจะใช้วิธีพิมพ์ชื่อไฟล์ที่ได้จาก Exercise 02 แทนแบบด้านล่างก็ได้:
+
+   ```
+   จาก [ชื่อไฟล์ที่ได้จาก Exercise 02] ช่วยสร้างไฟล์ Excel สำหรับ action tracker โดยมีคอลัมน์: Task, Owner, Status, Due Date และ Notes แล้วดึง action items จากเอกสารมาใส่ให้ครบเท่าที่มี
+   ```
 
 4. สังเกตการทำงานของ Cowork:
    - Cowork จะแสดงแผนการทำงาน และระบุว่ากำลังใช้ Skill **Excel**

@@ -2,6 +2,8 @@
 
 ยินดีต้อนรับสู่ **Multi-Agent Try-Out** — งาน Hands-on สำหรับสำรวจความสามารถของ AI Agent Services ด้วยตัวเองครับ 
 
+> สำหรับผู้เข้าร่วม: ดูข้อมูลบัญชีที่เตรียมไว้ได้ที่ [provided-account.md](./provided-account.md)
+
 Event นี้แบ่งออกเป็น 2 Track:
 
 | Track | กลุ่มเป้าหมาย | เครื่องมือ |

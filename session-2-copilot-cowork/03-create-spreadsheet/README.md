@@ -1,9 +1,9 @@
-# Exercise 03: แปลง Follow-up Brief เป็น Task Tracker ด้วย Cowork
+# Exercise 03: แปลง Decision Log เป็น Task Tracker ด้วย Cowork
 
 🔑 ต้องการ M365 Copilot License
 🔑 ต้องเปิดใช้งาน Cowork (Frontier preview)
 
-ในแบบฝึกหัดนี้ เราจะใช้ไฟล์ Word Follow-up Brief ที่สร้างจาก Exercise 02 แล้วให้ Cowork แปลงต่อเป็น **ตาราง Excel สำหรับติดตามงาน** (Task Tracker) เพื่อให้เห็นว่ามันช่วยพางานจากเอกสารหนึ่งไปสู่อีกแอปหนึ่งได้
+ในแบบฝึกหัดนี้ เราจะใช้ไฟล์ Word Decision Log ที่สร้างจาก Exercise 02 แล้วให้ Cowork แปลงต่อเป็น **ตาราง Excel สำหรับติดตามงาน** (Task Tracker) — ดึง decision ไปเป็น task พร้อม owner และ due date เพื่อให้เห็นว่ามันช่วยพางานจากเอกสารหนึ่งไปสู่อีกแอปหนึ่งได้
 
 ---
 
@@ -11,9 +11,9 @@
 
 1. เปิด Cowork Chat ใหม่ (กดไอคอน New Chat หรือกดที่ **Cowork** ในเมนูด้านซ้ายอีกครั้ง)
 
-2. กดปุ่ม **+** (Add attachment) แล้วแนบไฟล์ Word Follow-up Brief ที่ Cowork สร้างจาก Exercise 02
+2. กดปุ่ม **+** (Add attachment) แล้วแนบไฟล์ Word Decision Log ที่ Cowork สร้างจาก Exercise 02
 
-> **⚠️ หมายเหตุ:** ถ้าหาไฟล์ Word Follow-up Brief ไม่เจอ ให้แนบไฟล์ `meeting-notes.docx` เดิมแทนได้ แล้วใช้ Prompt เดียวกันนี้
+> **⚠️ หมายเหตุ:** ถ้าหาไฟล์ Word Decision Log ไม่เจอ ให้แนบไฟล์ `meeting-notes.docx` เดิมแทนได้ แล้วใช้ Prompt เดียวกันนี้
 
 3. ในช่อง Prompt พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
 
@@ -47,4 +47,4 @@
 
 ---
 
-แบบฝึกหัดถัดไป: [Exercise 04: สร้าง Presentation จาก Brief และ Tracker](../04-create-presentation-from-file/README.md)
+แบบฝึกหัดถัดไป: [Exercise 04: สร้าง Presentation จาก Decision Log และ Tracker](../04-create-presentation-from-file/README.md)

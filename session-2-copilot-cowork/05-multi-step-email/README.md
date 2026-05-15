@@ -11,7 +11,7 @@
 
 ใช้ไฟล์ที่สร้างจาก exercise ก่อนหน้า:
 
-- ไฟล์ Word Follow-up Brief จาก Exercise 02
+- ไฟล์ Word Decision Log จาก Exercise 02
 - ไฟล์ Excel action tracker จาก Exercise 03
 - ไฟล์ PowerPoint summary จาก Exercise 04
 
@@ -23,7 +23,7 @@
 
 1. เปิด Cowork Chat ใหม่
 
-2. กดปุ่ม **+** (Add attachment) แล้วแนบไฟล์ Word Follow-up Brief, Excel action tracker และ PowerPoint summary ที่สร้างไว้
+2. กดปุ่ม **+** (Add attachment) แล้วแนบไฟล์ Word Decision Log, Excel action tracker และ PowerPoint summary ที่สร้างไว้
 
 3. พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
 
@@ -61,8 +61,8 @@
 ยอดเยี่ยม! คุณผ่านทุกแบบฝึกหัดของ Session 2 แล้ว:
 
 - ✅ Sign in และเพิ่ม Cowork จาก Agent Store
-- ✅ อ่าน meeting notes แล้วสร้าง Word Follow-up Brief
-- ✅ แปลง Follow-up Brief เป็น Excel action tracker
+- ✅ อ่าน meeting notes แล้วสร้าง Word Decision Log
+- ✅ แปลง Decision Log เป็น Excel action tracker
 - ✅ รวมข้อมูลจากหลายไฟล์เป็น PowerPoint summary
 - ✅ ร่าง follow-up email พร้อม Approval controls
 

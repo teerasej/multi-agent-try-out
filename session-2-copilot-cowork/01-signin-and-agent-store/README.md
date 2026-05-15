@@ -29,7 +29,7 @@
 
 1. เปิดเบราว์เซอร์ แล้วไปที่ **[https://m365.cloud.microsoft](https://m365.cloud.microsoft)**
 
-2. กด **Sign in** แล้วใช้บัญชีที่ Event จัดเตรียมให้ (รับจาก Facilitator)
+2. กด **Sign in** แล้วใช้บัญชีที่ Event จัดเตรียมให้ (รับจากผู้ดูแล) เพื่อเข้าสู่ระบบ
 
 3. เมื่อเข้ามาในหน้าหลักแล้ว สังเกตปุ่ม **Work** / **Web** ที่ด้านบนของหน้าจอ — ตรวจสอบว่า Tab **Work** ใช้งานได้
 
@@ -39,7 +39,7 @@
 
    ![M365 Copilot chat - premium badge](../assets/m365-copilot-chat.png)
 
-> **⚠️ หมายเหตุ:** ถ้าไม่เห็นข้อความดังกล่าว ให้แจ้ง Facilitator เพื่อตรวจสอบ License ของบัญชีที่ได้รับ
+> **⚠️ หมายเหตุ:** ถ้าไม่เห็นข้อความดังกล่าว ให้แจ้งผู้ดูแลเพื่อตรวจสอบ License ของบัญชีที่ได้รับ
 
 ---
 
@@ -65,4 +65,4 @@
 
 ---
 
-แบบฝึกหัดถัดไป: [Exercise 02: สร้างเอกสาร Follow-up Brief ด้วย Cowork](../02-create-document/README.md)
+แบบฝึกหัดถัดไป: [Exercise 02: สร้างเอกสาร Decision Log ด้วย Cowork](../02-create-document/README.md)

@@ -1,9 +1,9 @@
-# Exercise 04: สร้าง Presentation จาก Brief และ Tracker
+# Exercise 04: สร้าง Presentation จาก Decision Log และ Tracker
 
 🔑 ต้องการ M365 Copilot License
 🔑 ต้องเปิดใช้งาน Cowork (Frontier preview)
 
-แบบฝึกหัดนี้จะต่อ workflow จากสองข้อก่อนหน้า โดยให้ Cowork ใช้ไฟล์ Follow-up Brief และไฟล์ action tracker เพื่อสร้าง **PowerPoint Presentation สำหรับสรุปความคืบหน้า** ที่พร้อมใช้คุยกับหัวหน้าหรือทีมต่อได้ทันที
+แบบฝึกหัดนี้จะต่อ workflow จากสองข้อก่อนหน้า โดยให้ Cowork ใช้ไฟล์ Decision Log และไฟล์ action tracker เพื่อสร้าง **PowerPoint Presentation สำหรับสรุปความคืบหน้า** ที่พร้อมใช้คุยกับหัวหน้าหรือทีมต่อได้ทันที
 
 ---
 
@@ -11,7 +11,7 @@
 
 ใช้ไฟล์ 2 ชุดที่ได้จาก exercise ก่อนหน้า:
 
-- ไฟล์ Word Follow-up Brief จาก Exercise 02
+- ไฟล์ Word Decision Log จาก Exercise 02
 - ไฟล์ Excel action tracker จาก Exercise 03
 
 > **⚠️ หมายเหตุ:** ถ้าหาไฟล์ที่ Cowork สร้างไว้ไม่เจอ ให้แนบไฟล์ `meeting-notes.docx` แทนได้ แต่ถ้าใช้ไฟล์จาก exercise ก่อนหน้า จะเห็น workflow ต่อเนื่องชัดกว่า
@@ -22,7 +22,7 @@
 
 1. เปิด Cowork Chat ใหม่
 
-2. กดปุ่ม **+** (Add attachment) ในช่อง Prompt เพื่อแนบไฟล์ Word Follow-up Brief และไฟล์ Excel action tracker
+2. กดปุ่ม **+** (Add attachment) ในช่อง Prompt เพื่อแนบไฟล์ Word Decision Log และไฟล์ Excel action tracker
 
 3. หลังจากแนบไฟล์แล้ว พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
 

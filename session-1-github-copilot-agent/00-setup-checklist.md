@@ -1,6 +1,10 @@
 # Session 1 Setup: GitHub Copilot Agent — Checklist สำหรับนักพัฒนา
 
-ใช้ Checklist นี้เพื่อเตรียมความพร้อมเข้า session ก่อนวันจัดงานนะครับ
+ใช้ Checklist นี้เพื่อเตรียมความพร้อม สมัครบัญชี GitHub และเช็คความพร้อมก่อนเข้า session วันอบรมนะครับ
+
+> **⚠️ Note 1:** ควรใช้ github account แบบที่เป็น Personal Account (ไม่ใช่ Organization Account) และยืนยัน Email แล้ว เพื่อหลีกเลี่ยงการติดปัญหาเรื่องสิทธิ์การใช้งานความสามารถของ GitHub Copilot บางอย่างครับ
+
+> **⚠️ Note 2:** หากใช้ บัญชี GitHub แบบ Organization Account ให้เช็คกับผู้ดูแลระบบขององค์กรว่ามีสิทธิ์ใช้งาน GitHub Copilot และ Github Codespaces หรือไม่นะครับ
 
 ## เป้าหมายของ Session
 
@@ -30,9 +34,12 @@
 
 ### 4. ทดสอบด้วยตัวเอง (3 นาที)
 
-1. Sign in เข้า GitHub
+1. Sign in เข้า [GitHub.com](https://github.com) ด้วยบัญชีของคุณ
 2. เปิด Repository ใดก็ได้ในเบราว์เซอร์
-
+3. กดเปิดเมนูของ Github Profile จากด้านบนขวา > ลงมาเลือกเมนูของ GitHub Copilot 
+   ![alt text](assets/open-copilot-setting.png)
+4. เช็คว่ามีปริมาณ Credit เพียงพอประมาณ 75%+ เผื่อสำหรับทำ workshop
+   ![alt text](assets/checking-github-copilot-credit-remaining-in-github-setting.png)
 ## ลิงก์อ้างอิง
 
 - สมัครบัญชี GitHub: https://github.com

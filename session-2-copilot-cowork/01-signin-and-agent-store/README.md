@@ -1,15 +1,14 @@
-# Exercise 01: เข้าสู่ระบบและเพิ่ม Cowork ลงใน Agent List
+# Exercise 01: เปิด Cowork และสำรวจ Interface
 
-🔑 ต้องการ M365 Copilot License
-🔑 ต้องเปิดใช้งาน Cowork (Frontier preview)
+🔑 ต้องมี Microsoft 365 Copilot license และผู้ดูแลเปิดใช้ Cowork แล้ว
 
-ในแบบฝึกหัดแรกนี้ เราจะ Sign in ด้วยบัญชีที่ Event จัดเตรียมไว้, ตรวจสอบว่า M365 Copilot Plan พร้อมใช้งาน แล้วเพิ่ม **Cowork (Frontier)** เข้า Agent List เพื่อใช้ในแบบฝึกหัดถัดไป
+ในแบบฝึกหัดแรกนี้ เราจะ Sign in ด้วยบัญชีที่ Event จัดเตรียมไว้, เปิด **Cowork** จาก Microsoft 365 Copilot, เตรียมไฟล์ตัวอย่างไว้เป็น work context และสำรวจส่วนสำคัญของหน้าจอที่จะใช้ตลอด Session
 
 ---
 
 ## ไฟล์ที่ต้องดาวน์โหลดก่อนเริ่ม
 
-กดลิงก์ด้านล่างเพื่อดาวน์โหลดไฟล์ตัวอย่างสำหรับ Session นี้ลงในเครื่อง:
+กดลิงก์ด้านล่างเพื่อดาวน์โหลดไฟล์ตัวอย่างสำหรับ Session นี้ แล้วอัปโหลดขึ้น **OneDrive** ของบัญชีทดสอบในโฟลเดอร์ที่หาเจอง่าย เช่น `Cowork workshop` ก่อนเริ่ม Exercise 02
 
 หรือดาวน์โหลดทั้งหมดในคราวเดียว:
 
@@ -21,47 +20,61 @@
 - 📊 [project-tasks.xlsx — Task Tracker โปรเจกต์ Website Redesign](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-tasks.xlsx)
 - 📑 [project-overview.pptx — Project Overview Presentation](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-overview.pptx)
 
-> **💡 เคล็ดลับ:** เก็บไฟล์เหล่านี้ไว้ในโฟลเดอร์ที่หาง่าย เช่น Desktop หรือ Downloads เพราะต้องใช้ในแบบฝึกหัด 04 และ 05
+> **💡 เคล็ดลับ:** Cowork รับไฟล์จากเครื่องได้ แต่การเก็บไฟล์ตัวอย่างไว้ใน OneDrive ทำให้เลือกเป็น work context, เปิด preview และใช้ต่อใน task ได้สะดวกกว่า
 
 ---
 
-## Feature 1: Sign In และตรวจสอบ Plan
+## Feature 1: Sign In และเปิด Cowork
 
-1. เปิดเบราว์เซอร์ แล้วไปที่ **[https://m365.cloud.microsoft](https://m365.cloud.microsoft)**
+1. เปิด Microsoft Edge หรือ Google Chrome แล้วไปที่ **[https://m365.cloud.microsoft](https://m365.cloud.microsoft)**
 
 2. กด **Sign in** แล้วใช้บัญชีที่ Event จัดเตรียมให้ (รับจากผู้ดูแล) เพื่อเข้าสู่ระบบ
 
-3. เมื่อเข้ามาในหน้าหลักแล้ว สังเกตปุ่ม **Work** / **Web** ที่ด้านบนของหน้าจอ — ตรวจสอบว่า Tab **Work** ใช้งานได้
+3. ที่ด้านบนของหน้าจอ เลือก tab **Cowork** ที่อยู่ข้าง **Chat**
 
-   ![M365 Copilot - Work/Web toggle](../assets/copilot-work-web.png)
+4. ถ้าไม่เห็น tab Cowork ให้แจ้งผู้จัดงานทันที ไม่ต้องค้นหาใน **Agents** หรือ **Agent Store** เพราะ Cowork เป็น tab หลักของ Microsoft 365 Copilot แล้ว
 
-4. สังเกตที่มุม **ซ้ายล่าง** ของหน้าจอ — ควรแสดงข้อความ **"You have premium Copilot features enabled"** หรือชื่อ Plan ที่บ่งบอกว่า M365 Copilot พร้อมใช้งาน
+## Feature 2: รู้จักหน้า Cowork
 
-   ![M365 Copilot chat - premium badge](../assets/m365-copilot-chat.png)
+เมื่อหน้า Cowork เปิดขึ้น ให้ใช้เวลา 2–3 นาทีสังเกตส่วนต่อไปนี้:
 
-> **⚠️ หมายเหตุ:** ถ้าไม่เห็นข้อความดังกล่าว ให้แจ้งผู้ดูแลเพื่อตรวจสอบ License ของบัญชีที่ได้รับ
+- ช่องพิมพ์งานและ Suggested prompts เช่น Catch me up หรือ Prep for a meeting
+- ตัวเลือก model ที่มุมบนของงาน — ใช้ **Auto** ตลอด workshop นี้
+- งานล่าสุดและ Tasks/Search เพื่อกลับไปทำ task เดิมต่อ
+- Scheduled สำหรับงานที่ตั้งเวลา และ Customize สำหรับ Plugins/Skills (อาจไม่แสดงในทุก tenant)
 
----
+> **⚠️ หมายเหตุ:** อย่าเปลี่ยน model, เพิ่ม Plugin หรือเปิด Browser use ใน workshop นี้ เว้นแต่ Facilitator ประกาศให้ทำ
 
-## Feature 2: เปิด Agent Store และเพิ่ม Cowork
+## Feature 3: เพิ่ม Work Context และดู Side panel
 
-1. จากหน้าหลัก กดที่ **Agents** ในเมนูด้านซ้าย แล้วเลือก **All agents**
+1. สร้าง task สั้น ๆ จากช่องพิมพ์บนหน้า Cowork
 
-   ![Copilot Chat - All agents link](../assets/copilot-all-agent.png)
+2. กดปุ่ม **Add attachments** แล้วเลือกไฟล์ `meeting-notes.docx` จาก OneDrive ที่เตรียมไว้
 
-2. หน้า **Agent Store** จะเปิดขึ้น — ในส่วน "Your agents" ให้มองหา **Cowork (Frontier)**
+   - เลือก **Add work context** เมื่อจะอ้างอิงไฟล์, บุคคล, อีเมล, Teams chat/channel หรือ meeting ในองค์กร
+   - เลือก **Attach cloud files** เมื่อต้องการเลือกจาก OneDrive, SharePoint หรือ Teams
+   - เลือก **Upload images and files** เมื่อต้องการแนบจากเครื่องโดยตรง
 
-   ![Agent Store - Cowork Frontier](../assets/copilot-cowork-agent.png)
+3. ส่งข้อความทดสอบด้านล่าง:
 
-3. กดที่ **Cowork (Frontier)** แล้วกด **Add** หรือ **Open** เพื่อเพิ่ม Cowork เข้า Agent List ของคุณ
+   ```
+   จากไฟล์ที่แนบมา สรุป 3 ประเด็นสำคัญเป็น bullet โดยยังไม่ต้องสร้าง แก้ไข ส่ง หรือแชร์ไฟล์ใด ๆ
+   ```
 
-4. กลับสู่หน้า Chat — คุณควรจะเห็น **Cowork** ปรากฏในส่วน Agents ด้านซ้ายแล้ว
+4. ระหว่าง Cowork ทำงาน ให้เปิด Side panel ด้านขวาและสังเกต:
+
+   - **Progress** และขั้นตอนการทำงาน
+   - **Input** สำหรับไฟล์ต้นทาง และ **Output** สำหรับไฟล์ที่ Cowork สร้าง
+   - **Skills** ที่ Cowork โหลดมาใช้
+   - **Permissions** และ **Schedule** ถ้ามี
+
+5. เมื่อได้ผลลัพธ์แล้ว ให้เปิด task นี้จาก Tasks/Search อีกครั้ง เพื่อยืนยันว่าคุณสามารถกลับมาทำงานต่อจาก task เดิมได้
 
 ---
 
 ## สรุป
 
-คุณได้ Sign in เรียบร้อยและเพิ่ม Cowork เข้า Agent List สำเร็จแล้ว ตอนนี้พร้อมสำหรับแบบฝึกหัดถัดไปที่จะใช้ Cowork ทำงานจริง ๆ
+คุณได้เปิด Cowork จาก tab ที่ถูกต้อง, เตรียม work context และรู้จัก Side panel แล้ว **ให้เก็บ task นี้ไว้** เพราะ Exercise 02–05 จะทำต่อใน task เดียวกัน
 
 ---
 

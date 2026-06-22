@@ -1,75 +1,61 @@
-# Exercise 02: สร้างเอกสาร Decision Log ด้วย Cowork
+# Exercise 02: สร้าง Decision Log ด้วย Cowork
 
-🔑 ต้องการ M365 Copilot License
-🔑 ต้องเปิดใช้งาน Cowork (Frontier preview)
+🔑 ต้องมี Microsoft 365 Copilot license และผู้ดูแลเปิดใช้ Cowork แล้ว
 
-เริ่ม workflow ต่อเนื่องของ Session 2 กันในแบบฝึกหัดนี้ เราจะให้ Cowork อ่านไฟล์ **meeting-notes.docx** แล้วแปลงเป็น **เอกสาร Word แบบ Decision Log** ที่ดึงเฉพาะการตัดสินใจ ผู้รับผิดชอบ และ risks เพื่อให้เห็นว่า Cowork ไม่ได้สรุปซ้ำ แต่แปลงข้อมูลให้เป็นรูปแบบที่ใช้งานต่อได้ทันที
+เริ่ม **Cowork task เดียว** ที่จะใช้ต่อถึง Exercise 05 ในข้อนี้ เราจะให้ Cowork อ่าน `meeting-notes.docx` แล้วสร้าง Word Decision Log ที่นำไปใช้ต่อได้จริง ไม่ใช่สรุปการประชุมแบบกว้าง ๆ
 
----
-
-## ไฟล์ที่ต้องการ
-
-📄 [meeting-notes.docx — ดาวน์โหลดที่นี่](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/meeting-notes.docx)
-
-> ถ้ายังไม่ได้ดาวน์โหลด ให้กดลิงก์ด้านบนเพื่อดาวน์โหลดก่อน แล้วบันทึกไว้ที่ Desktop หรือ Downloads
+> **ต่อจาก Exercise 01:** กลับไปเปิด task เดิมจาก Tasks/Search หากยังเปิดอยู่ ห้ามเริ่ม task ใหม่ เพราะเราจะต่อยอด work context และผลลัพธ์ในบทสนทนาเดียวกัน
 
 ---
 
-## Feature 1: เปิด Cowork
+## Feature 1: เพิ่มแหล่งข้อมูลและสร้าง Decision Log
 
-1. จากหน้า M365 Copilot Chat ให้กดที่ **Cowork** ในส่วน Agents ด้านซ้าย
+1. ตรวจสอบว่าไฟล์ `meeting-notes.docx` ปรากฏในส่วน **Input** ของ Side panel แล้ว
 
-   ![Cowork chat interface](../assets/cowork-chat.png)
+   - ถ้ายังไม่มี ให้เลือก **Add attachments** > **Attach cloud files** แล้วเลือกไฟล์จาก OneDrive
+   - ใช้ **Add work context** ได้เมื่อมีไฟล์, บุคคล, อีเมล, Teams chat/channel หรือ meeting ในองค์กรที่ต้องการอ้างอิงเพิ่ม
 
-2. หน้า Cowork จะเปิดขึ้น — สังเกตว่าต่างจาก Copilot Chat ตรงที่หน้าจอแสดงข้อความต้อนรับว่า **"What should we tackle next?"**
+2. ส่ง Prompt ด้านล่างใน **task เดิม**:
+
+   ```
+   จาก meeting-notes.docx สร้างไฟล์ Word ชื่อ Decision Log โดยใช้เฉพาะข้อมูลจากไฟล์ต้นทาง
+
+   สำหรับแต่ละ decision ให้แสดง: การตัดสินใจ, Owner, Due date, Risks/Blockers และหลักฐานอ้างอิงจากการประชุม
+   หากข้อมูลใดไม่มีในต้นทาง ให้ระบุว่า TBD หรือ Not specified แทนการคาดเดา
+   สร้างเฉพาะไฟล์ Word นี้ และยังไม่ต้องส่ง แชร์ หรือแก้ไขข้อมูลอื่น
+   ```
+
+3. ระหว่าง Cowork ทำงาน ให้สังเกต thinking indicator, Skill messages และ step-by-step updates ในแชต รวมถึง Progress และ Skills ใน Side panel
+
+4. ถ้า Cowork ถามคำถามเพิ่มเติม ให้เลือกคำตอบที่ตรงกับงาน หรือเลือก **Skip** เมื่อต้องการให้ทำต่อจากข้อมูลที่มีอยู่
+
+5. ถ้างานกำลังไปผิดทาง ให้ใช้ Pause หรือ Cancel แล้วบอกสิ่งที่ต้องการเพิ่มได้ทันที ข้อความที่ส่งระหว่างทำงานจะถูก queue ไว้ตามลำดับ
 
 ---
 
-## Feature 2: อ่านบันทึกประชุมแล้วสร้าง Decision Log
+## Feature 2: ตรวจสอบ Output ก่อนทำขั้นถัดไป
 
-1. กดปุ่ม **+** (Add attachment) ในช่อง Prompt เพื่อแนบไฟล์ **meeting-notes.docx**
+1. เปิดส่วน **Output** ใน Side panel แล้วเลือก preview ของไฟล์ Word ที่สร้างขึ้น
 
-2. ในช่อง "How can I help you today?" พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
+2. ตรวจด้วย checklist นี้:
+
+   - [ ] ทุก decision มี owner หรือระบุว่าไม่พบในต้นทาง
+   - [ ] Due date ที่ไม่มีในต้นทางไม่ถูกแต่งขึ้น
+   - [ ] Risks/Blockers แยกจาก decision ชัดเจน
+   - [ ] มีหลักฐานอ้างอิงที่ช่วยให้กลับไปตรวจ meeting notes ได้
+
+3. หากพบข้อผิดพลาด ให้สั่งแก้ใน task เดิม เช่น:
 
    ```
-   จากไฟล์ meeting-notes.docx ที่แนบมา สร้างไฟล์ Word แบบ Decision Log โดยแสดง: 
-   1) ผู้รับผิดชอบแต่ละข้อ 
-   2) Due date (ถ้ามี) 
-   3) Risks หรือ blockers ที่ต้องระวัง 
-   4) ข้อมูลอ้างอิงจากการประชุม
-   ```
-   
-   หรือจะใช้วิธีเลือกไฟล์จาก OneDrive โดยการพิมพ์ Prompt โดยใช้เครื่องหมาย `/` แบบด้านล่างก็ได้:
-
-   
-   ```
-   จากไฟล์ [/meeting-notes.docx] ที่แนบมา สร้างไฟล์ Word แบบ Decision Log โดยแสดง: 1) การตัดสินใจที่เกิดขึ้นในการประชุม 
-   1) ผู้รับผิดชอบแต่ละข้อ 
-   2) Due date (ถ้ามี) 
-   3) Risks หรือ blockers ที่ต้องระวัง 
-   4) ข้อมูลอ้างอิงจากการประชุม
+   แก้ไข Decision Log โดยระบุ TBD ในทุกช่อง Due date ที่ไม่มีข้อมูลใน meeting notes และคงข้อมูลอื่นจากต้นฉบับไว้
    ```
 
-
-3. สังเกตการทำงานของ Cowork:
-   - Cowork จะแสดงแผนการทำงานในขั้นตอนย่อย ๆ
-   - มีการแสดงว่ากำลังใช้ Skill **Word**
-   - อาจมีปุ่ม **Approve** หรือ **Confirm** ให้กดก่อนดำเนินการ — ให้กด **Approve** เพื่อยืนยัน
-
-4. รอ Cowork สร้างเอกสาร — เมื่อเสร็จจะมีลิงก์หรือ Preview ของไฟล์ Word ปรากฏขึ้น และมีรายการไฟล์ที่เกี่ยวข้อง แสดงใน Panel ด้านขวา
-
-5. กดที่ลิงก์เพื่อเปิดเอกสาร Word และตรวจสอบว่าเนื้อหาถูกแยกออกเป็น decision, owner, risk ได้ชัดเจน
-
-6. จดชื่อไฟล์ Word ที่ Cowork สร้างไว้ หรือเปิดค้างไว้ก่อน เพราะเราจะใช้ไฟล์ Decision Log นี้ต่อใน Exercise 03
-
-> **💡 เคล็ดลับ:** ลองสังเกตที่ Panel ด้านขวา — Cowork จะแสดง Skills ที่กำลัง Active เช่น "Word" จะไฮไลต์ขึ้นมาระหว่างสร้างเอกสาร
+> **💡 เคล็ดลับ:** ผลลัพธ์ที่ Cowork สร้างจะเปิดจาก Side panel หรือ OneDrive ได้ตลอด ไม่จำเป็นต้องจำชื่อไฟล์แล้วเริ่มแชตใหม่
 
 ---
 
 ## สรุป
 
-คุณได้เริ่ม workflow ของ Session 2 แล้ว โดยให้ Cowork แปลง meeting notes เป็น Decision Log ที่มีประเด็นเดียวคือ decision + owner + risk — ไม่ใช่สรุปเนื้อหาทั้งหมด แต่เป็นข้อมูลที่ใช้ทำงานต่อทันที ในแบบฝึกหัดถัดไป เราจะใช้ไฟล์นี้แปลงต่อเป็น Excel action tracker
-
----
+คุณมี Word Decision Log ที่ตรวจสอบย้อนกลับได้แล้ว และยังอยู่ใน Cowork task เดิม ใน Exercise 03 เราจะใช้ output นี้สร้าง Excel action tracker ต่อทันที
 
 แบบฝึกหัดถัดไป: [Exercise 03: แปลง Decision Log เป็น Task Tracker ด้วย Cowork](../03-create-spreadsheet/README.md)

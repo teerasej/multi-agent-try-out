@@ -1,75 +1,58 @@
-# Exercise 05: งานหลายขั้นตอน — ร่าง Follow-up Email จากไฟล์ที่สร้างไว้
+# Exercise 05: งานหลายขั้นตอน — ร่าง Follow-up Email และตรวจ Approval
 
-🔑 ต้องการ M365 Copilot License
-🔑 ต้องเปิดใช้งาน Cowork (Frontier preview)
+🔑 ต้องใช้ **test mailbox ที่ผู้จัดงานกำหนดเท่านั้น**
 
-แบบฝึกหัดสุดท้ายนี้จะปิด workflow ต่อเนื่องของ Session 2 โดยใช้ไฟล์ที่เราสร้างไว้จาก Exercise 02 ถึง 04 มาให้ Cowork **ร่าง Follow-up Email พร้อมเตรียมไฟล์แนบ** ทั้งหมดนี้ด้วย Prompt เดียว และที่สำคัญคือ Cowork จะขอ **Approval** ก่อนขั้นตอนที่มีผลจริง
-
----
-
-## ไฟล์ที่ต้องการ
-
-ใช้ไฟล์ที่สร้างจาก exercise ก่อนหน้า:
-
-- ไฟล์ Word Decision Log จาก Exercise 02
-- ไฟล์ Excel action tracker จาก Exercise 03
-- ไฟล์ PowerPoint summary จาก Exercise 04
-
-> **⚠️ หมายเหตุ:** ถ้าหาไฟล์ที่ Cowork สร้างไว้ไม่เจอ ให้ใช้ไฟล์ที่มีอยู่เท่าที่หาเจอได้ จุดสำคัญของแบบฝึกหัดนี้คือดูว่า Cowork เตรียม email และ attachment ให้เราอย่างไร
+แบบฝึกหัดสุดท้ายของ core workflow นี้จะใช้ output ทั้งหมดใน Cowork task เดิมเพื่อร่าง follow-up email แล้วฝึกตรวจ approval card โดย **ห้ามส่งอีเมลจริง**
 
 ---
 
-## Feature 1: สั่งงานหลายขั้นตอนด้วย Prompt เดียว
+## Feature 1: ร่าง Email จาก Output เดิม
 
-1. เปิด Cowork Chat ใหม่
+1. กลับไปที่ Cowork task เดิม และตรวจใน Side panel ว่ามี Decision Log, Action Tracker และ PowerPoint summary อยู่ใน **Output**
 
-2. กดปุ่ม **+** (Add attachment) แล้วแนบไฟล์ Word Decision Log, Excel action tracker และ PowerPoint summary ที่สร้างไว้
-
-3. พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
+2. ส่ง Prompt ด้านล่าง โดยแทน `[test mailbox]` ด้วยอีเมลทดสอบที่ Facilitator ให้มา:
 
    ```
-   จากไฟล์ที่แนบมา ช่วยร่าง follow-up email ถึง [email address] โดยสรุป 3 ประเด็นสำคัญจากการประชุม, ระบุ action items ที่ต้องติดตาม, และเตรียมแนบไฟล์ PowerPoint กับ Excel ที่เกี่ยวข้องไปด้วย 
-   ```
-   หรือจะใช้วิธีพิมพ์ชื่อไฟล์ที่ได้จาก Exercise 03 และ 04 แทนแบบด้านล่างก็ได้:
+   ใช้ Decision Log, Action Tracker และ PowerPoint summary ใน task นี้
+   ร่าง follow-up email ถึง [test mailbox] โดยสรุป 3 ประเด็นสำคัญ, ระบุ action items ที่ต้องติดตาม และแนบ PowerPoint กับ Excel ที่เกี่ยวข้อง
 
+   แสดง draft และรายการไฟล์แนบให้ฉันตรวจสอบก่อน ยังไม่ต้องส่งอีเมล
    ```
-   จาก [ชื่อไฟล์ที่ได้จาก Exercise 03] และ [ชื่อไฟล์ที่ได้จาก Exercise 04] ช่วยร่าง follow-up email ถึง [email address] โดยสรุป 3 ประเด็นสำคัญจากการประชุม, ระบุ action items ที่ต้องติดตาม, และเตรียมแนบไฟล์ PowerPoint กับ Excel ที่เกี่ยวข้องไปด้วย 
-   ```
-   
 
-4. สังเกตว่า Cowork แบ่งงานออกเป็นขั้นตอนย่อยหลายอย่าง เช่น:
-   - ขั้นที่ 1: อ่านข้อมูลจากไฟล์ที่เราแนบ
-   - ขั้นที่ 2: สรุปสาระสำคัญสำหรับเนื้อหาอีเมล
-   - ขั้นที่ 3: ร่าง Email พร้อมเนื้อหาและ Attachment
+3. ตรวจ draft ในแชตและ preview/output ก่อนทำขั้นถัดไป:
+
+   - [ ] ผู้รับเป็น test mailbox ที่ถูกต้อง
+   - [ ] เนื้อหาสรุปตรงกับ output ก่อนหน้า
+   - [ ] Action items สำคัญอยู่ครบ
+   - [ ] รายการไฟล์แนบเป็น PowerPoint และ Excel ที่ถูกต้อง
 
 ---
 
-## Feature 2: Approval Steps — ควบคุมทุกขั้นตอน
+## Feature 2: ฝึกอ่าน Approval card โดยไม่ส่งจริง
 
-1. ระหว่างที่ Cowork ทำงาน จะมี **Approval prompt** ปรากฏขึ้นในบางขั้นตอน — โดยเฉพาะขั้นตอนที่มีผลต่อระบบจริง เช่น การส่ง Email
+1. เมื่อ draft ถูกต้องแล้ว ให้ส่งข้อความนี้ **เฉพาะเมื่อ Facilitator ยืนยันว่าเป็น test mailbox**:
 
-2. สำหรับขั้นตอนเตรียมเนื้อหา หรือเตรียมไฟล์แนบ ให้กด **Approve** เพื่อให้ workflow เดินต่อ
+   ```
+   เตรียมส่งอีเมล draft นี้ไปยัง [test mailbox] พร้อมไฟล์แนบตามที่แสดง แล้วรอ approval จากฉัน
+   ```
 
-3. เมื่อถึงขั้นตอน "ส่ง Email" — **หยุดที่ Approval prompt นี้ก่อน** ลองอ่านว่า Cowork ร่าง Email ไว้ว่าอย่างไร
+2. เมื่อ Cowork แสดง approval card:
 
-   ![Cowork chat interface](../assets/cowork-chat.png)
+   - อ่าน preview ของผู้รับ เนื้อหา และไฟล์แนบ
+   - ดู risk indicator หากปรากฏ
+   - เลือก **Show parameters** เพื่อดูรายละเอียดการกระทำ
+   - ทำความเข้าใจว่าปุ่ม Send/Action อนุมัติครั้งนี้เท่านั้น ส่วน **Don't ask again** ใช้ข้าม approval ที่คล้ายกันใน conversation ปัจจุบัน
 
-4. กด **Cancel** หรือ **Edit** เพื่อหยุดที่ขั้นตอนนี้ — ไม่ต้องส่ง Email จริง ๆ ในแบบฝึกหัดนี้
+3. เลือก **Cancel** เสมอในแบบฝึกหัดนี้ ห้ามกด Send และห้ามเลือก Don't ask again
 
-> **⚠️ หมายเหตุ:** ในแบบฝึกหัดนี้ขอให้ **หยุดก่อนกด Send** เพื่อไม่ให้ Email ออกไปจากบัญชีทดสอบ ลองสังเกตดูว่า Cowork ร่างเนื้อหา Email และเลือกไฟล์แนบไว้อย่างไรแทน
+4. หาก Cowork ไปผิดทางก่อนถึง approval ให้ใช้ Pause หรือ Cancel และแก้คำสั่งใน task เดิมได้
 
-> **💡 เคล็ดลับ:** Approval step คือสิ่งที่ทำให้ Cowork แตกต่างจาก Automation ทั่วไป — คุณอยู่ในการควบคุมทุกขั้นตอนที่มีผลจริง
+> **⚠️ หมายเหตุ:** Cowork ขอ approval สำหรับการกระทำที่มีผลจริง เช่น ส่งอีเมล โพสต์ Teams หรือสร้างนัดหมาย ไม่ได้หมายความว่าทุกขั้นตอนสร้างเอกสารจะต้องมี approval
 
 ---
 
 ## สรุป
 
-ยอดเยี่ยม! คุณผ่านทุกแบบฝึกหัดของ Session 2 แล้ว:
+คุณได้ทำ workflow ข้าม Word, Excel, PowerPoint และ Email ใน Cowork task เดียว พร้อมตรวจข้อมูลและหยุดการกระทำที่มีผลจริงก่อนส่งออกไป
 
-- ✅ Sign in และเพิ่ม Cowork จาก Agent Store
-- ✅ อ่าน meeting notes แล้วสร้าง Word Decision Log
-- ✅ แปลง Decision Log เป็น Excel action tracker
-- ✅ รวมข้อมูลจากหลายไฟล์เป็น PowerPoint summary
-- ✅ ร่าง follow-up email พร้อม Approval controls
-
-Cowork ช่วยให้คุณมอบหมายงานที่ต้องข้ามหลายแอปให้ AI ทำแทนได้จริง ตั้งแต่สรุปข้อมูล, แปลงเป็นตาราง, ทำสไลด์ ไปจนถึงเตรียมอีเมล โดยยังควบคุมทุกขั้นตอนที่สำคัญได้เอง
+หากต้องการทดลองความสามารถแบบตั้งเวลา ให้ทำต่อที่ [Exercise 06 (Optional): ตั้ง Scheduled Briefing](../06-scheduled-briefing/README.md)

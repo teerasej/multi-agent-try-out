@@ -1,55 +1,57 @@
 # Exercise 03: แปลง Decision Log เป็น Task Tracker ด้วย Cowork
 
-🔑 ต้องการ M365 Copilot License
-🔑 ต้องเปิดใช้งาน Cowork (Frontier preview)
+🔑 ต้องทำ Exercise 02 ใน Cowork task เดิมให้เสร็จก่อน
 
-ในแบบฝึกหัดนี้ เราจะใช้ไฟล์ Word Decision Log ที่สร้างจาก Exercise 02 แล้วให้ Cowork แปลงต่อเป็น **ตาราง Excel สำหรับติดตามงาน** (Task Tracker) — ดึง decision ไปเป็น task พร้อม owner และ due date เพื่อให้เห็นว่ามันช่วยพางานจากเอกสารหนึ่งไปสู่อีกแอปหนึ่งได้
-
----
-
-## Feature 1: สร้าง Excel Task Tracker จากไฟล์สรุป
-
-1. เปิด Cowork Chat ใหม่ (กดไอคอน New Chat หรือกดที่ **Cowork** ในเมนูด้านซ้ายอีกครั้ง)
-
-2. กดปุ่ม **+** (Add attachment) แล้วแนบไฟล์ Word Decision Log ที่ Cowork สร้างจาก Exercise 02
-
-> **⚠️ หมายเหตุ:** ถ้าหาไฟล์ Word Decision Log ไม่เจอ ให้แนบไฟล์ `meeting-notes.docx` เดิมแทนได้ แล้วใช้ Prompt เดียวกันนี้
-
-3. ในช่อง Prompt พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
-
-   ```
-   จากไฟล์ที่แนบมา ช่วยสร้างไฟล์ Excel สำหรับ action tracker โดยมีคอลัมน์: Task, Owner, Status, Due Date และ Notes แล้วดึง action items จากเอกสารมาใส่ให้ครบเท่าที่มี
-   ```
-   หรือจะใช้วิธีพิมพ์ชื่อไฟล์ที่ได้จาก Exercise 02 แทนแบบด้านล่างก็ได้:
-
-   ```
-   จาก [ชื่อไฟล์ที่ได้จาก Exercise 02] ช่วยสร้างไฟล์ Excel สำหรับ action tracker โดยมีคอลัมน์: Task, Owner, Status, Due Date และ Notes แล้วดึง action items จากเอกสารมาใส่ให้ครบเท่าที่มี
-   ```
-
-4. สังเกตการทำงานของ Cowork:
-   - Cowork จะแสดงแผนการทำงาน และระบุว่ากำลังใช้ Skill **Excel**
-   - ถ้ามีปุ่ม **Approve** ให้กด เพื่อยืนยัน
-
-5. เมื่อ Cowork สร้างไฟล์เสร็จ กดที่ลิงก์ไฟล์ Excel เพื่อเปิดและตรวจสอบว่า action items ถูกแปลงมาเป็นตารางเรียบร้อย
-
-6. จดชื่อไฟล์ Excel นี้ไว้ หรือเปิดค้างไว้ก่อน เพราะเราจะใช้ต่อใน Exercise 04
-
-> **💡 เคล็ดลับ:** ลองถาม Cowork ต่อว่า `เพิ่ม Conditional Formatting ให้คอลัมน์ Status ด้วย` — Cowork สามารถปรับไฟล์ Excel ที่เพิ่งสร้างได้เลย
+ในแบบฝึกหัดนี้ เราจะใช้ Word Decision Log ที่อยู่ใน **Output ของ task เดิม** เพื่อสร้าง Excel action tracker ไม่ต้องเปิด task ใหม่หรือพิมพ์ชื่อไฟล์ให้ Cowork เดา
 
 ---
 
-## Feature 2: สังเกต Skills Panel
+## Feature 1: สร้าง Excel Action Tracker จาก Output เดิม
 
-1. ระหว่างที่ Cowork ทำงาน ลองสังเกตที่ Panel ด้านขวาของหน้าจอ — ดูว่า Skills ใดที่ Cowork ใช้ในงานนี้
+1. กลับไปที่ Cowork task ที่สร้าง Decision Log จาก Exercise 02
 
-2. กดที่ Steps ที่แสดงเพื่อขยายดูรายละเอียดของแต่ละขั้นตอนที่ Cowork ทำ
+2. ตรวจใน Side panel ว่า Decision Log อยู่ในส่วน **Output** หากหา task ไม่เจอ ให้เปิด Tasks/Search แล้ว resume task นี้
+
+3. ส่ง Prompt ด้านล่าง:
+
+   ```
+   ใช้ Decision Log ที่สร้างใน task นี้เพื่อสร้างไฟล์ Excel ชื่อ Action Tracker
+
+   สร้างตารางที่มีคอลัมน์: Task, Owner, Status, Due Date และ Notes
+   ดึง action item ให้ครบตามข้อมูลที่มี; ถ้า Owner หรือ Due Date ไม่มี ให้ระบุ TBD
+   ตั้งค่า Status เริ่มต้นเป็น Not started และเพิ่ม conditional formatting สำหรับ Not started, In progress, Blocked และ Done
+   สร้างเฉพาะไฟล์ Excel นี้ ยังไม่ต้องส่ง แชร์ หรือแก้ไขข้อมูลภายนอก task
+   ```
+
+4. สังเกตว่า Cowork โหลด Skill **Excel** และแสดงความคืบหน้าอย่างไร
+
+5. หากนึกเงื่อนไขเพิ่มระหว่าง Cowork ทำงาน ให้ส่งข้อความต่อได้ เช่น `เพิ่ม action item ที่มี blocker ให้ Status เป็น Blocked` ข้อความจะเข้า queue และ Cowork ปรับแผนตามบริบท
+
+---
+
+## Feature 2: ตรวจสอบ Task Tracker
+
+1. เปิด preview ของ Excel จาก **Output** ใน Side panel
+
+2. ตรวจด้วย checklist นี้:
+
+   - [ ] Action item จาก Decision Log อยู่ในตารางครบเท่าที่มี
+   - [ ] คอลัมน์ Task, Owner, Status, Due Date และ Notes มีครบ
+   - [ ] ค่า Owner/Due Date ที่ไม่ทราบเป็น TBD ไม่ใช่ข้อมูลที่ Cowork เดา
+   - [ ] Status เริ่มต้นและ conditional formatting อ่านง่าย
+
+3. หากมีรายการตกหล่น ให้สั่งแก้ใน task เดิม เช่น:
+
+   ```
+   เปรียบเทียบ Action Tracker กับ Decision Log ใน task นี้ แล้วเพิ่ม action item ที่ตกหล่นโดยไม่เปลี่ยนรายการเดิม
+   ```
+
+> **💡 เคล็ดลับ:** ระหว่างทำงานให้ดู Progress, Skills และ Output ใน Side panel แทนการรอผลในแชตอย่างเดียว
 
 ---
 
 ## สรุป
 
-คุณได้ใช้ Cowork แปลงข้อมูลจาก Word ไปเป็น Excel สำเร็จแล้ว จุดสำคัญคือเราไม่ได้เริ่มจากศูนย์ แต่ให้มันต่อยอดจาก output ของ exercise ก่อนหน้า ในแบบฝึกหัดถัดไป เราจะใช้ไฟล์ Brief และ tracker นี้ต่อเพื่อสร้าง Presentation
-
----
+คุณได้แปลงข้อมูลจาก Word เป็น Excel ใน Cowork task เดิมแล้ว Exercise ถัดไปจะนำทั้ง Decision Log และ Action Tracker ไปสร้าง PowerPoint summary
 
 แบบฝึกหัดถัดไป: [Exercise 04: สร้าง Presentation จาก Decision Log และ Tracker](../04-create-presentation-from-file/README.md)

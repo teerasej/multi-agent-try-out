@@ -9,7 +9,7 @@ Event นี้แบ่งออกเป็น 2 Track:
 | Track | กลุ่มเป้าหมาย | เครื่องมือ |
 |---|---|---|
 | **Session 1** | นักพัฒนา (Developer) | GitHub Copilot Agent Mode + Codespaces |
-| **Session 2** | ผู้ใช้งานทั่วไป (Business User) | Microsoft 365 Copilot Cowork (Frontier) |
+| **Session 2** | ผู้ใช้งานทั่วไป (Business User) | Microsoft 365 Copilot — Cowork |
 
 ---
 
@@ -33,16 +33,19 @@ Event นี้แบ่งออกเป็น 2 Track:
 
 ## Session 2 — Microsoft 365 Copilot Cowork
 
-🔑 ต้องการ M365 Copilot License + Cowork (Frontier preview)
+🔑 ต้องมี Microsoft 365 Copilot license และผู้ดูแลเปิดใช้ Cowork ให้บัญชีแล้ว
+
+> **หมายเหตุสำหรับผู้จัดงาน:** Cowork ใช้ usage-based billing และบางความสามารถขึ้นกับนโยบาย ผู้ดูแล และภูมิภาคของ tenant ให้ทำ [Setup Checklist](./session-2-copilot-cowork/00-setup-checklist.md) ให้เสร็จก่อนเริ่ม Session
 
 | # | แบบฝึกหัด | สิ่งที่จะได้เรียนรู้ |
 |---|---|---|
 | 00 | [Setup Checklist](./session-2-copilot-cowork/00-setup-checklist.md) | ตรวจสอบ License และความพร้อมก่อนเริ่ม Session |
-| 01 | [เข้าสู่ระบบและเพิ่ม Cowork ลงใน Agent List](./session-2-copilot-cowork/01-signin-and-agent-store/README.md) | Sign in, ตรวจสอบ Plan, ดาวน์โหลดไฟล์ตัวอย่าง และเพิ่ม Cowork จาก Agent Store |
+| 01 | [เปิด Cowork และสำรวจ Interface](./session-2-copilot-cowork/01-signin-and-agent-store/README.md) | เปิด Cowork จาก tab ข้าง Chat, เตรียมไฟล์ใน OneDrive และรู้จัก Task, Side panel และ Work context |
 | 02 | [สร้างเอกสาร Decision Log ด้วย Cowork](./session-2-copilot-cowork/02-create-document/README.md) | ให้ Cowork แปลง meeting notes เป็น Word decision log |
-| 03 | [แปลง Decision Log เป็น Task Tracker ด้วย Cowork](./session-2-copilot-cowork/03-create-spreadsheet/README.md) | ใช้ Word decision log จากข้อก่อนหน้าเพื่อสร้าง Excel action tracker |
+| 03 | [แปลง Decision Log เป็น Task Tracker ด้วย Cowork](./session-2-copilot-cowork/03-create-spreadsheet/README.md) | ใช้ Decision Log ใน Cowork task เดิมเพื่อสร้าง Excel action tracker |
 | 04 | [สร้าง Presentation จาก Decision Log และ Tracker](./session-2-copilot-cowork/04-create-presentation-from-file/README.md) | รวมข้อมูลจาก decision log และ tracker เพื่อสร้าง PowerPoint สำหรับสรุปความคืบหน้า |
-| 05 | [งานหลายขั้นตอน — ร่าง Follow-up Email จากไฟล์ที่สร้างไว้](./session-2-copilot-cowork/05-multi-step-email/README.md) | ใช้ไฟล์ที่สร้างไว้ทั้งหมดเพื่อร่าง email และเตรียม attachment พร้อม Approval controls |
+| 05 | [งานหลายขั้นตอน — ร่าง Follow-up Email จากไฟล์ที่สร้างไว้](./session-2-copilot-cowork/05-multi-step-email/README.md) | ใช้ไฟล์ที่สร้างไว้ทั้งหมดใน task เดิมเพื่อร่าง email และฝึกตรวจ Approval controls โดยไม่ส่งจริง |
+| 06 (Optional) | [ตั้ง Scheduled Briefing](./session-2-copilot-cowork/06-scheduled-briefing/README.md) | ตั้ง ตรวจสอบ และ pause/delete งานสรุปแบบตั้งเวลา |
 
 ---
 
@@ -52,7 +55,7 @@ Event นี้แบ่งออกเป็น 2 Track:
 
 | ไฟล์ | ใช้ใน |
 |---|---|
-| 📦 [**session-2-sample-files.zip** — ทุกไฟล์รวมในครั้งเดียว](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/session-2-sample-files.zip) | ทุก Exercise |
-| [meeting-notes.docx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/meeting-notes.docx) | Exercise 02 (Decision Log) |
-| [project-tasks.xlsx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-tasks.xlsx) | Exercise 05 |
-| [project-overview.pptx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-overview.pptx) | ไฟล์อ้างอิง |
+| 📦 [**session-2-sample-files.zip** — ทุกไฟล์รวมในครั้งเดียว](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/session-2-sample-files.zip) | ดาวน์โหลดและอัปโหลดขึ้น OneDrive ก่อนเริ่ม Session |
+| [meeting-notes.docx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/meeting-notes.docx) | Input หลักสำหรับ Exercise 01–05 |
+| [project-tasks.xlsx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-tasks.xlsx) | ไฟล์อ้างอิงเสริม (ไม่ใช้ใน core workflow) |
+| [project-overview.pptx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-overview.pptx) | ไฟล์อ้างอิงเสริม (ไม่ใช้ใน core workflow) |

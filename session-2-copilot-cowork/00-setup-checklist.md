@@ -4,7 +4,7 @@
 
 ## เป้าหมายของ Session
 
-ผู้เข้าร่วมจะใช้ Copilot Cowork เพื่อทำงานข้ามหลาย App ใน Microsoft 365 พร้อมกัน โดยมีการขอ Approval ในแต่ละขั้นตอน และยังควบคุมทุกอย่างได้เอง
+ผู้เข้ารับการอบรมจะได้ตรวจสอบความพร้อมของระบบและสิทธิ์การใช้งาน Microsoft 365 Copilot Cowork ก่อนเข้าร่วมการอบรม
 
 ## สิ่งที่ต้องเตรียม
 
@@ -16,21 +16,18 @@
 
 ### 2. ความพร้อมของระบบ
 
-- [ ] Sign in ด้วยบัญชี Microsoft ขององค์กรได้
+- [ ] Sign in เข้าเว็บ https://m365copilot.com/ ด้วยบัญชี Microsoft ขององค์กรได้
 - [ ] เปิด Copilot Chat ได้สำเร็จ
-- [ ] มี Work mode ให้ใช้งาน (แสดงว่า license ถูกเปิดใช้งานแล้ว)
+- [ ] มี Cowork จากเมนูด้านซ้ายให้ใช้งาน (แสดงว่า license ถูกเปิดใช้งานแล้ว)
 
-![M365 Copilot — หน้าหลักในโหมด Work](./assets/copilot-work-web.png)
+![alt text](assets/cowork-mode.png)
+
+> ⚠️ หมายเหตุ: หากไม่พบ Cowork ในเมนูด้านซ้าย ให้ติดต่อผู้ดูแลระบบ IT ขององค์กรเพื่อยืนยันว่า license ถูกเปิดใช้งานแล้ว
 
 ### 3. ตรวจสอบว่า Cowork พร้อมใช้งาน
 
-- [ ] เข้าถึงส่วน 'All agents' จากเมนูด้านซ้ายของ Copilot Chat ได้
-  ![เมนู All agents ในหน้า Copilot Chat](./assets/copilot-all-agent.png)
-- [ ] มองเห็น Cowork ในเมนูด้านซ้าย หรือใน Agent Store (All agents)
-  ![Cowork (Frontier) ใน Agent Store](./assets/copilot-cowork-agent.png)
-- [ ] เปิดและพูดคุยกับ Cowork ได้
-  ![หน้า Cowork Chat](./assets/cowork-chat.png)
-
+- ทดสอบพิมพ์ข้อความใน Cowork Chat และตรวจสอบว่าได้รับการตอบกลับจาก Copilot
+  ![alt text](assets/cowork-chat-box.png)
 ## ลิงก์อ้างอิง
 
 - ภาพรวมของ Cowork: https://learn.microsoft.com/microsoft-365/copilot/cowork/

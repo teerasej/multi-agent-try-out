@@ -38,38 +38,42 @@
 
 เมื่อหน้า Cowork เปิดขึ้น ให้ใช้เวลา 2–3 นาทีสังเกตส่วนต่อไปนี้:
 
-- ช่องพิมพ์งานและ Suggested prompts เช่น Catch me up หรือ Prep for a meeting
-- ตัวเลือก model ที่มุมบนของงาน — ใช้ **Auto** ตลอด workshop นี้
-- งานล่าสุดและ Tasks/Search เพื่อกลับไปทำ task เดิมต่อ
-- Scheduled สำหรับงานที่ตั้งเวลา และ Customize สำหรับ Plugins/Skills (อาจไม่แสดงในทุก tenant)
+![alt text](images/overview-cowork-workspace.png)
+
+1. ช่องพิมพ์งานและ Suggested prompts เช่น Catch me up หรือ Prep for a meeting
+2. ตัวเลือก model ที่มุมบนซ้าย — ใช้ **Auto** ตลอด workshop นี้
+3. My Task: แสดงงานล่าสุดและ task ที่คุณสร้างไว้เพื่อกับไปทำต่อได้
+4. Scheduled สำหรับงานที่ตั้งเวลา และ Customize สำหรับ Plugins/Skills (อาจไม่แสดงในทุก tenant)
 
 > **⚠️ หมายเหตุ:** อย่าเปลี่ยน model, เพิ่ม Plugin หรือเปิด Browser use ใน workshop นี้ เว้นแต่ Facilitator ประกาศให้ทำ
 
 ## Feature 3: เพิ่ม Work Context และดู Side panel
 
-1. สร้าง task สั้น ๆ จากช่องพิมพ์บนหน้า Cowork
-
-2. กดปุ่ม **Add attachments** แล้วเลือกไฟล์ `meeting-notes.docx` จาก OneDrive ที่เตรียมไว้
-
+1. กดปุ่ม **+ New Task** จากเมนู Cowork ด้านซ้ายบน เพื่อสร้าง task สั้น ๆ จากช่องพิมพ์ prompt บนหน้า Cowork
+   ![alt text](images/cowork-new-task.png)
+2. กดปุ่ม **Add attachments** แล้วเลือกไฟล์ `meeting-notes.docx` จาก OneDrive ที่เตรียมไว้ (หรืออัปโหลดจากเครื่องก็ได้) เพื่อให้ Cowork ใช้เป็น work context
+   ![alt text](images/cowork-add-attachement-upload-image-files.png)
+   จะมีตตัวเลือกดังนี้
    - เลือก **Add work context** เมื่อจะอ้างอิงไฟล์, บุคคล, อีเมล, Teams chat/channel หรือ meeting ในองค์กร
    - เลือก **Attach cloud files** เมื่อต้องการเลือกจาก OneDrive, SharePoint หรือ Teams
    - เลือก **Upload images and files** เมื่อต้องการแนบจากเครื่องโดยตรง
 
-3. ส่งข้อความทดสอบด้านล่าง:
+3. คัดลอกข้อความทดสอบด้านล่างมาใช้:
 
    ```
-   จากไฟล์ที่แนบมา สรุป 3 ประเด็นสำคัญเป็น bullet โดยยังไม่ต้องสร้าง แก้ไข ส่ง หรือแชร์ไฟล์ใด ๆ
+   จากไฟล์ที่แนบมา สรุป 3 ประเด็นสำคัญเป็นรายการ bullet 
    ```
 
 4. ระหว่าง Cowork ทำงาน ให้เปิด Side panel ด้านขวาและสังเกต:
-
+   ![alt text](images/cowork-side-panel.png)
+   - **Reference** สำหรับไฟล์ที่แนบมา
    - **Progress** และขั้นตอนการทำงาน
    - **Input** สำหรับไฟล์ต้นทาง และ **Output** สำหรับไฟล์ที่ Cowork สร้าง
    - **Skills** ที่ Cowork โหลดมาใช้
    - **Permissions** และ **Schedule** ถ้ามี
 
 5. เมื่อได้ผลลัพธ์แล้ว ให้เปิด task นี้จาก Tasks/Search อีกครั้ง เพื่อยืนยันว่าคุณสามารถกลับมาทำงานต่อจาก task เดิมได้
-
+   ![alt text](images/cowork-my-task.png)
 ---
 
 ## สรุป

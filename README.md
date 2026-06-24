@@ -13,25 +13,7 @@ Event นี้แบ่งออกเป็น 2 Track:
 
 ---
 
-## Session 1 — GitHub Copilot Agent Mode
-
-ใช้ได้ทั้ง GitHub Copilot Free และ Pro
-
-| # | แบบฝึกหัด | สิ่งที่จะได้เรียนรู้ |
-|---|---|---|
-| 00 | [Setup Checklist](./session-1-github-copilot-agent/00-setup-checklist.md) | ตรวจสอบความพร้อมก่อนเริ่ม Session |
-| 01 | [Fork Repo และเริ่ม Codespaces](./session-1-github-copilot-agent/01-fork-and-codespaces/README.md) | Fork repository และเปิด VS Code ในเบราว์เซอร์ผ่าน Codespaces |
-| 02 | [สำรวจโปรเจกต์ด้วย Copilot Chat](./session-1-github-copilot-agent/02-copilot-chat-explore/README.md) | เลือก Model, ปรับ Reasoning และ Prompt ให้ Copilot อธิบาย Architecture |
-| 03 | [วางแผนฟีเจอร์ด้วย Plan Mode](./session-1-github-copilot-agent/03-plan-mode/README.md) | ใช้ Plan Mode วางแผนฟีเจอร์ก่อน Start Implementation |
-| 04 | [พัฒนาฟีเจอร์อัตโนมัติด้วย Agent Mode](./session-1-github-copilot-agent/04-agent-mode/README.md) | ให้ Agent Mode เพิ่มฟีเจอร์ใหม่แบบ Autonomous หลายไฟล์พร้อมกัน |
-| 05 | [สร้าง Custom Prompt สำหรับงานที่ทำซ้ำบ่อย](./session-1-github-copilot-agent/05-custom-prompt/README.md) | สร้าง `.prompt.md` เพื่อแปลงไอเดียสั้น ๆ ให้เป็น prompt ที่พร้อมใช้ต่อ |
-| 06 | [สร้าง Skill สำหรับ workflow ของโปรเจกต์](./session-1-github-copilot-agent/06-custom-skill/README.md) | สร้าง `SKILL.md` เพื่อสอน workflow ซ้ำ ๆ ของ note app ให้ Copilot |
-| 07 | [สร้าง Custom Agent สำหรับ Code Review](./session-1-github-copilot-agent/07-custom-agent/README.md) | สร้าง `.agent.md` สำหรับ review งานก่อนเปิด Pull Request |
-| 08 | [Commit, Push และสร้าง Pull Request](./session-1-github-copilot-agent/08-commit-and-pr/README.md) | ให้ Copilot ช่วย Commit, Push และสร้าง Pull Request บน GitHub |
-
----
-
-## Session 2 — Microsoft 365 Copilot Cowork
+## Session 1 — Microsoft 365 Copilot Cowork
 
 🔑 ต้องมี Microsoft 365 Copilot license และผู้ดูแลเปิดใช้ Cowork ให้บัญชีแล้ว
 
@@ -49,9 +31,9 @@ Event นี้แบ่งออกเป็น 2 Track:
 
 ---
 
-## ไฟล์ตัวอย่างสำหรับ Session 2
+## ไฟล์ตัวอย่างสำหรับ Session 1
 
-ดาวน์โหลดไฟล์เหล่านี้ไว้ที่เครื่องก่อนเริ่ม Session 2 (หรือดาวน์โหลดได้จากขั้นตอนที่ 01 ด้านบน):
+ดาวน์โหลดไฟล์เหล่านี้ไว้ที่เครื่องก่อนเริ่ม Session 21(หรือดาวน์โหลดได้จากขั้นตอนที่ 01 ด้านบน):
 
 | ไฟล์ | ใช้ใน |
 |---|---|
@@ -59,3 +41,26 @@ Event นี้แบ่งออกเป็น 2 Track:
 | [meeting-notes.docx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/meeting-notes.docx) | Input หลักสำหรับ Exercise 01–05 |
 | [project-tasks.xlsx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-tasks.xlsx) | ไฟล์อ้างอิงเสริม (ไม่ใช้ใน core workflow) |
 | [project-overview.pptx](https://github.com/teerasej/multi-agent-try-out/raw/main/session-2-copilot-cowork/files/project-overview.pptx) | ไฟล์อ้างอิงเสริม (ไม่ใช้ใน core workflow) |
+
+
+---
+
+
+## Session 2 — GitHub Copilot Agent Mode
+
+ใช้ได้ทั้ง GitHub Copilot Free และ Pro
+
+| # | แบบฝึกหัด | สิ่งที่จะได้เรียนรู้ |
+|---|---|---|
+| 00 | [Setup Checklist](./session-1-github-copilot-agent/00-setup-checklist.md) | ตรวจสอบความพร้อมก่อนเริ่ม Session |
+| 01 | [Fork Repo และเริ่ม Codespaces](./session-1-github-copilot-agent/01-fork-and-codespaces/README.md) | Fork repository และเปิด VS Code ในเบราว์เซอร์ผ่าน Codespaces |
+| 02 | [สำรวจโปรเจกต์ด้วย Copilot Chat](./session-1-github-copilot-agent/02-copilot-chat-explore/README.md) | เลือก Model, ปรับ Reasoning และ Prompt ให้ Copilot อธิบาย Architecture |
+| 03 | [วางแผนฟีเจอร์ด้วย Plan Mode](./session-1-github-copilot-agent/03-plan-mode/README.md) | ใช้ Plan Mode วางแผนฟีเจอร์ก่อน Start Implementation |
+| 04 | [พัฒนาฟีเจอร์อัตโนมัติด้วย Agent Mode](./session-1-github-copilot-agent/04-agent-mode/README.md) | ให้ Agent Mode เพิ่มฟีเจอร์ใหม่แบบ Autonomous หลายไฟล์พร้อมกัน |
+| 05 | [สร้าง Custom Prompt สำหรับงานที่ทำซ้ำบ่อย](./session-1-github-copilot-agent/05-custom-prompt/README.md) | สร้าง `.prompt.md` เพื่อแปลงไอเดียสั้น ๆ ให้เป็น prompt ที่พร้อมใช้ต่อ |
+| 06 | [สร้าง Skill สำหรับ workflow ของโปรเจกต์](./session-1-github-copilot-agent/06-custom-skill/README.md) | สร้าง `SKILL.md` เพื่อสอน workflow ซ้ำ ๆ ของ note app ให้ Copilot |
+| 07 | [สร้าง Custom Agent สำหรับ Code Review](./session-1-github-copilot-agent/07-custom-agent/README.md) | สร้าง `.agent.md` สำหรับ review งานก่อนเปิด Pull Request |
+| 08 | [Commit, Push และสร้าง Pull Request](./session-1-github-copilot-agent/08-commit-and-pr/README.md) | ให้ Copilot ช่วย Commit, Push และสร้าง Pull Request บน GitHub |
+
+---
+

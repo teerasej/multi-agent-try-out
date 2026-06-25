@@ -6,8 +6,8 @@ This repository is the exercise output workspace for the **Multi-Agent Try-Out**
 
 It contains two hands-on tracks:
 
-1. `session-1-github-copilot-agent`
-2. `session-2-copilot-cowork`
+1. `github-copilot-agent`
+2. `copilot-cowork`
 
 When making changes, treat this repository as training material that should stay easy to follow for workshop participants.
 
@@ -31,8 +31,8 @@ When making changes, treat this repository as training material that should stay
 
 - `README.md`: main workshop landing page and session index
 - `provided-account.md`: shared participant account details
-- `session-1-github-copilot-agent/`: developer-focused exercises
-- `session-2-copilot-cowork/`: business-user-focused exercises
+- `github-copilot-agent/`: developer-focused exercises
+- `copilot-cowork/`: business-user-focused exercises
 - `assets/` folders: screenshots and visual references used by instructions
 - `files/` folders: downloadable sample materials for exercises
 

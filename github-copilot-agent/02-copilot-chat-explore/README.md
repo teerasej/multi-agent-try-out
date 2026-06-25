@@ -10,8 +10,6 @@
 
 1. ใน Codespaces กดไอคอน **GitHub Copilot** ที่ Sidebar ด้านซ้าย (ไอคอนรูปดาวหรือฟองคำพูด) เพื่อเปิด Chat panel
 
-   ![Copilot Chat panel icon](./assets/copilot-chat-icon.png)
-
 2. ในช่อง Chat กดที่ชื่อ Model (Auto) ด้านล่างสุด เพื่อเปิด Dropdown เลือก Model
 
 3. คลิกเลือก Model ที่ต้องการ เช่น **Claude Haiku**, **Claude Sonnet** หรือ **GPT-4o** 

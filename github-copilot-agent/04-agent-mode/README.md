@@ -24,7 +24,7 @@
 
 2. ด้านล่างของช่อง Prompt ใน Copilot Chat จะมีปุ่ม Set Permission ที่แสดงว่า **Default Approval** อยู่ ให้คลิกเลือกเปลี่ยนเป็น **Bypass Approvals** เพื่อให้ Copilot สามารถใช้ tools ต่างๆ ได้อย่างอิสระโดยไม่ต้องขออนุญาตเป็นระยะๆ
 
-   ![bypass approvals](./assets/bypass-approvals.png)
+   ![bypass approvals](./assets/bypass-approval.png)
 
 3. สังเกตการทำงานของ Copilot:
    - Copilot จะเริ่มอ่านไฟล์ที่เกี่ยวข้อง

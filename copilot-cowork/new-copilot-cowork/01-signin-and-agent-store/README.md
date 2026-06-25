@@ -32,7 +32,7 @@
 
 3. ที่ด้านบนของหน้าจอ เลือก tab **Cowork** ที่อยู่ข้าง **Chat**
 
-4. ถ้าไม่เห็น tab Cowork ให้แจ้งผู้จัดงานทันที ไม่ต้องค้นหาใน **Agents** หรือ **Agent Store** เพราะ Cowork เป็น tab หลักของ Microsoft 365 Copilot แล้ว
+4. **ถ้าไม่เห็น tab Cowork ให้ลองดูในเมนู Agent และกดเปิด Cowork จากเมนูนั้นแทน**
 
 ## Feature 2: รู้จักหน้า Cowork
 

@@ -1,4 +1,4 @@
-# Session 2: Copilot Cowork — Service Recovery Workflow
+# Copilot Cowork — Service Recovery Workflow
 
 Workshop นี้ใช้สถานการณ์จำลอง **Customer Digital Platform service recovery** เพื่อให้เห็นการทำงานแบบต่อเนื่องของ Cowork ตั้งแต่หลักฐานที่กระจัดกระจาย ไปจนถึง Word, Excel, PowerPoint, Custom Skill, Action approval และ Scheduled prompt
 

@@ -36,6 +36,10 @@
 
 4. ตรวจชื่อ คำอธิบาย และ instructions ก่อนยืนยันให้ Cowork บันทึก Skill
 
+5. หลังจาก Cowork สร้าง Skill เสร็จ ให้กดดูไฟล์ Markdown ของ Skill ที่ปรากฏใน **Output** เพื่อยืนยันว่า instructions ถูกบันทึกครบถ้วน
+
+6. กด Open in OneDrive เพื่อดูไฟล์ Markdown ของ Skill ใน OneDrive 
+7. ตรวจสอบว่า Cowork บันทึก Skill ไว้ในโฟลเดอร์ `My Files/Document/Cowork/Skills` แล้ว
 ---
 
 ## Feature 2: เปิด conversation ใหม่และทดลองใช้ Skill
@@ -45,24 +49,30 @@
 2. แนบ `service-incident-timeline.docx` แล้วส่ง Prompt นี้:
 
    ```
-   ใช้ Service Recovery Executive Brief กับไฟล์ที่แนบมา
    สร้าง executive brief ภาษาไทยไม่เกิน 1 หน้า สำหรับผู้บริหาร
    ```
+   
+> 💡 Tips #1: เราสามารถใช้ prompt ชี้นำเพื่อให้ Cowork เลือกใช้ skill ได้ เช่น 
+> ```
+> ใช้ Service Recovery Executive Brief กับไฟล์ที่แนบมา
+> ```
 
-3. เปิด Side panel และตรวจว่า Skill ปรากฏในส่วน **Skills**
+> 💡 Tips #2: หรือเราสามารถพิมพ์ `/` เพื่อเลือก skill ลงในช่อง prompt โดยตรงก็ได้
 
-4. ตรวจผลลัพธ์:
+1. เปิด Side panel และตรวจว่า Skill ที่เราสร้างขึ้น ถูกใช้ และปรากฏในส่วน **Skills**
+
+2. ตรวจผลลัพธ์:
 
    - [ ] มี 5 ส่วนตามรูปแบบที่กำหนด
    - [ ] แยก Facts, Working hypotheses และ Unknowns ชัดเจน
-   - [ ] ไม่มี action ภายนอกเกิดขึ้นเอง
+   - [ ] ไม่มี action นอกเหนือจากการทำงาน
 
-> หากไม่มี Customize หรือองค์กรปิดการสร้าง custom skill ให้ Facilitator สาธิตจากหน้าจอของตน และข้ามไป Exercise 05 โดยไม่ต้องสร้าง Skill แบบ manual
+> หากไม่มี Customize หรือองค์กรปิดการสร้าง custom skill ให้ดูผมสาธิต และข้ามไป Exercise 05 โดยไม่ต้องสร้าง Skill แบบ manual
 
 ---
 
 ## สรุป
 
-พวกเราได้สร้างมาตรฐานการเขียน executive brief ที่ Cowork ค้นพบและใช้ซ้ำได้ใน conversation ใหม่
+พวกเราได้สร้าง skill การเขียน executive brief ที่ Cowork ค้นพบและใช้ซ้ำได้ใน conversation ใหม่
 
 แบบฝึกหัดถัดไป: [Exercise 05: ฝึก Safe calendar action](../05-safe-calendar-action/README.md)

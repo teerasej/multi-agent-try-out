@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: สร้าง SKILL.md
+## Practice 1: สร้าง SKILL.md
 
 1. คัดลอกชื่อและที่อยู่ไฟล์ด้านล่างนี้ไว้:
 
@@ -21,12 +21,12 @@
    ---
    name: small-note-feature
    description: "Add small features to the Next.js note app. Use for note counter, empty state message, list sorting, and small UI behavior changes."
-   argument-hint: "Describe the small note app feature you want to add"
+   argument-hint: "Describe the small note app Practice you want to add"
    ---
 
    # Small Note Feature
 
-   Use this skill when you need to add a small feature to the Next.js note app without changing the overall architecture.
+   Use this skill when you need to add a small Practice to the Next.js note app without changing the overall architecture.
 
    ## Procedure
    1. Inspect these files first when relevant:
@@ -46,7 +46,7 @@
 
 ---
 
-## Feature 2: เรียกใช้ Skill กับงานจริง
+## Practice 2: เรียกใช้ Skill กับงานจริง
 
 1. เปิด Copilot Chat แล้วพิมพ์ `/`
 2. เลือก skill ชื่อ **small-note-feature**

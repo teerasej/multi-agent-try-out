@@ -8,7 +8,7 @@
 
 ---
 
-## Feature 1: เพิ่มแหล่งข้อมูลและสร้าง Decision Log
+## Practice 1: เพิ่มแหล่งข้อมูลและสร้าง Decision Log
 
 1. ตรวจสอบว่าไฟล์ `meeting-notes.docx` ปรากฏในส่วน **Input** ของ Side panel แล้ว
 
@@ -33,7 +33,7 @@
 
 ---
 
-## Feature 2: ตรวจสอบ Output ก่อนทำขั้นถัดไป
+## Practice 2: ตรวจสอบ Output ก่อนทำขั้นถัดไป
 
 1. เปิดส่วน **Output** ใน Side panel แล้วเลือก preview ของไฟล์ Word ที่สร้างขึ้น
 

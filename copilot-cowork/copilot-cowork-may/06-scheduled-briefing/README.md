@@ -8,7 +8,7 @@ Cowork สามารถตั้ง prompt ให้ทำงานตาม�
 
 ---
 
-## Feature 1: ตั้งงานสรุปแบบตั้งเวลา
+## Practice 1: ตั้งงานสรุปแบบตั้งเวลา
 
 1. เปิด Cowork แล้วเริ่ม task ใหม่สำหรับแบบฝึกหัดนี้
 
@@ -23,7 +23,7 @@ Cowork สามารถตั้ง prompt ให้ทำงานตาม�
 
 ---
 
-## Feature 2: ตรวจสอบและหยุด Scheduled task
+## Practice 2: ตรวจสอบและหยุด Scheduled task
 
 1. เปิด **Scheduled** จากหน้า Cowork หรือจากส่วน Schedule ใน Side panel
 

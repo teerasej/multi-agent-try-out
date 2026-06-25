@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: เปิด Agent Mode
+## Practice 1: เปิด Agent Mode
 
 1. ใน Copilot Chat panel กดที่ Dropdown ชื่อ Mode ด้านล่างของช่อง Chat
 2. ให้แน่ใจว่าได้เลือก **Agent**
@@ -14,7 +14,7 @@
 
 ---
 
-## Feature 2: ให้ Copilot เพิ่มฟีเจอร์ Pin Note
+## Practice 2: ให้ Copilot เพิ่มฟีเจอร์ Pin Note
 
 1. ในช่อง Chat พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
 

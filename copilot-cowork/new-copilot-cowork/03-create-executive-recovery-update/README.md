@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: เพิ่ม executive context และวางแผน PowerPoint
+## Practice 1: เพิ่ม executive context และวางแผน PowerPoint
 
 1. กลับไปที่ Cowork task เดิม และตรวจว่าใน Output มีทั้ง `Executive Situation Summary` และ `Recovery Action Register`
 
@@ -73,7 +73,7 @@
 
 ---
 
-## Feature 2: Preview outline และตรวจความถูกต้องของ PowerPoint
+## Practice 2: Preview outline และตรวจความถูกต้องของ PowerPoint
 
 1. เปิด `Executive Recovery Update Outline.md` จาก **Output** เพื่อตรวจว่าแผนตรงกับสิ่งที่รีวิวแล้ว
 

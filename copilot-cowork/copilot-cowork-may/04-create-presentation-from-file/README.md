@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: สร้าง Presentation จากหลาย Output
+## Practice 1: สร้าง Presentation จากหลาย Output
 
 1. กลับไปที่ Cowork task เดิม และตรวจใน Side panel ว่ามีทั้ง Word Decision Log และ Excel Action Tracker อยู่ในส่วน **Output**
 
@@ -31,7 +31,7 @@
 
 ---
 
-## Feature 2: Preview และตรวจความถูกต้อง
+## Practice 2: Preview และตรวจความถูกต้อง
 
 1. เปิดไฟล์ PowerPoint จาก Output เพื่อดู preview แบบ split view โดยไม่ต้องดาวน์โหลดก่อน
 

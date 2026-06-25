@@ -24,7 +24,7 @@
 
 ---
 
-## Feature 1: Sign In และเปิด Cowork
+## Practice 1: Sign In และเปิด Cowork
 
 1. เปิด Microsoft Edge หรือ Google Chrome แล้วไปที่ **[https://m365.cloud.microsoft](https://m365.cloud.microsoft)**
 
@@ -34,7 +34,7 @@
 
 4. **ถ้าไม่เห็น tab Cowork ให้ลองดูในเมนู Agent และกดเปิด Cowork จากเมนูนั้นแทน**
 
-## Feature 2: รู้จักหน้า Cowork
+## Practice 2: รู้จักหน้า Cowork
 
 เมื่อหน้า Cowork เปิดขึ้น ให้ใช้เวลา 2–3 นาทีสังเกตส่วนต่อไปนี้:
 
@@ -47,7 +47,7 @@
 
 > **⚠️ หมายเหตุ:** อย่าเปลี่ยน model, เพิ่ม Plugin หรือเปิด Browser use ใน workshop นี้ เว้นแต่ Facilitator ประกาศให้ทำ
 
-## Feature 3: เพิ่ม Work Context และดู Side panel (หรือ Workspace panel)
+## Practice 3: เพิ่ม Work Context และดู Side panel (หรือ Workspace panel)
 
 1. กดปุ่ม **+ New Task** จากเมนู Cowork ด้านซ้ายบน เพื่อสร้าง task สั้น ๆ จากช่องพิมพ์ prompt บนหน้า Cowork
    ![alt text](images/cowork-new-task.png)
@@ -89,7 +89,7 @@
 
 ---
 
-## Feature 4: เปลี่ยนคำตอบล่าสุดเป็นไฟล์ Word และเปิดใน OneDrive
+## Practice 4: เปลี่ยนคำตอบล่าสุดเป็นไฟล์ Word และเปิดใน OneDrive
 
 1. ใน **task เดิม** ส่ง Prompt นี้:
 

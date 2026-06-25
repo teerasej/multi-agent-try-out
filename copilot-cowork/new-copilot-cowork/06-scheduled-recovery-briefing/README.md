@@ -6,7 +6,7 @@ Cowork สามารถตั้ง prompt ให้ทำงานตาม�
 
 ---
 
-## Feature 1: สร้าง scheduled prompt
+## Practice 1: สร้าง scheduled prompt
 
 1. เปิด Cowork และเริ่ม task ใหม่
 
@@ -33,7 +33,7 @@ Cowork สามารถตั้ง prompt ให้ทำงานตาม�
 
 ---
 
-## Feature 2: หยุด Scheduled task
+## Practice 2: หยุด Scheduled task
 
 1. เปิด **Scheduled** หรือส่วน **Schedule** ใน Cowork panel
 

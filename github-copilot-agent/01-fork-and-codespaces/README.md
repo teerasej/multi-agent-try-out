@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: Fork Repository
+## Practice 1: Fork Repository
 
 1. เปิด URL ของ Sample Project ด้านล่างในเบราว์เซอร์:
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Feature 2: เปิด Codespaces
+## Practice 2: เปิด Codespaces
 
 1. จาก Repo ที่ Fork แล้ว กดปุ่ม **Code** (สีเขียว) มุมบนขวา
 

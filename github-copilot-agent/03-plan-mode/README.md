@@ -10,7 +10,7 @@
 
 ---
 
-## Feature 1: เปิด Plan Mode
+## Practice 1: เปิด Plan Mode
 
 1. ใน Copilot Chat panel กดที่ Dropdown ชื่อ Mode ด้านล่างของช่อง Chat (ปัจจุบันอาจแสดงว่า **Ask** หรือ **Agent**)
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Feature 2: ให้ Copilot วางแผนเพิ่มฟีเจอร์
+## Practice 2: ให้ Copilot วางแผนเพิ่มฟีเจอร์
 
 1. ในช่อง Chat พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
 
@@ -37,7 +37,7 @@
 
 ---
 
-## Feature 3: เริ่ม Implementation
+## Practice 3: เริ่ม Implementation
 
 1. กดปุ่ม **Start Implementation** ที่ปรากฏด้านล่าง Plan
 

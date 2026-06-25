@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: สร้าง Prompt file
+## Practice 1: สร้าง Prompt file
 
 1. คัดลอกชื่อและที่อยู่ไฟล์ด้านล่างนี้ไว้:
 
@@ -19,13 +19,13 @@
 
    ```markdown
    ---
-   name: "Feature Request Refiner"
-   description: "Turn a short feature idea into a build-ready implementation prompt for the Next.js note app"
-   argument-hint: "Describe the feature idea"
+   name: "Practice Request Refiner"
+   description: "Turn a short Practice idea into a build-ready implementation prompt for the Next.js note app"
+   argument-hint: "Describe the Practice idea"
    agent: "ask"
    ---
 
-   Turn the user's short feature request into a build-ready prompt for GitHub Copilot.
+   Turn the user's short Practice request into a build-ready prompt for GitHub Copilot.
 
    Return these sections:
    1. Goal
@@ -48,10 +48,10 @@
 
 ---
 
-## Feature 2: เรียกใช้ Prompt ผ่าน slash command
+## Practice 2: เรียกใช้ Prompt ผ่าน slash command
 
 1. เปิด Copilot Chat แล้วพิมพ์ `/`
-2. เลือก prompt ชื่อ **Feature Request Refiner**
+2. เลือก prompt ชื่อ **Practice Request Refiner**
 3. เมื่อ Copilot ขอ input ให้พิมพ์หรือวางตัวอย่างด้านล่าง:
 
    ```
@@ -64,11 +64,11 @@
    - มี Acceptance criteria
    - มี Validation checklist พร้อมใช้ต่อ
 
-5. ลองทดสอบผลลัพธ์ที่ได้ด้วยการเปลี่ยน Copilot Chat เป็น Agent mode แล้วสั่งให้ทำตาม prompt ที่ได้จาก `Feature Request Refiner` ดูว่า Copilot จะวางแผนและแก้ไขไฟล์อย่างไร
+5. ลองทดสอบผลลัพธ์ที่ได้ด้วยการเปลี่ยน Copilot Chat เป็น Agent mode แล้วสั่งให้ทำตาม prompt ที่ได้จาก `Practice Request Refiner` ดูว่า Copilot จะวางแผนและแก้ไขไฟล์อย่างไร
 
 
    ```
-   implement this feature and rerun the app to preview the changes. If there are any errors, fix them until the feature works as expected.
+   implement this Practice and rerun the app to preview the changes. If there are any errors, fix them until the Practice works as expected.
    ```
 
 > **⚠️ หมายเหตุ:** ถ้า prompt ยังไม่แสดงในรายการ slash command ให้ลอง Save ไฟล์อีกครั้ง หรือเริ่ม chat ใหม่หนึ่งรอบ

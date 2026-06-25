@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: เพิ่ม dashboard และสร้าง Excel action register
+## Practice 1: เพิ่ม dashboard และสร้าง Excel action register
 
 1. กลับไปที่ Cowork task เดิมจาก Exercise 01 แล้วเปิด Side panel
 
@@ -43,7 +43,7 @@
 
 ---
 
-## Feature 2: ตรวจสอบ Recovery Action Register
+## Practice 2: ตรวจสอบ Recovery Action Register
 
 1. กดเปิด preview ของ Excel จาก **Output** ใน Side panel
 

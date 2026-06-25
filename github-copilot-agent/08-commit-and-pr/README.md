@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: Commit การเปลี่ยนแปลงผ่าน Copilot
+## Practice 1: Commit การเปลี่ยนแปลงผ่าน Copilot
 
 1. ใน Copilot Chat panel ตรวจสอบว่า Mode ยังเป็น **Agent** อยู่
 2. กดปุ่ม (←) ด้านบนซ้ายของช่อง Chat เพื่อย้อนกลับไปยังหน้ารวม Session จะเห็นรายการของ Session Chat ที่เราคุยกับ Copilot มาแล้วทั้งหมด 
@@ -28,7 +28,7 @@
 
 ---
 
-## Feature 2: Push ไปยัง GitHub
+## Practice 2: Push ไปยัง GitHub
 
 1. พิมพ์หรือวาง Prompt ด้านล่าง แล้วกด Enter:
 
@@ -42,7 +42,7 @@
 
 ---
 
-## Feature 3: สร้าง Pull Request บน GitHub
+## Practice 3: สร้าง Pull Request บน GitHub
 
 1. กลับไปที่ Copilot Chat panel แล้วพิมพ์หรือวาง Prompt ด้านล่าง จากนั้นกด Enter:
 

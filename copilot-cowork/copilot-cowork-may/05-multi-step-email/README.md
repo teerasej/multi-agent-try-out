@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: ร่าง Email จาก Output เดิม
+## Practice 1: ร่าง Email จาก Output เดิม
 
 1. กลับไปที่ Cowork task เดิม และตรวจใน Side panel ว่ามี Decision Log, Action Tracker และ PowerPoint summary อยู่ใน **Output**
 
@@ -28,7 +28,7 @@
 
 ---
 
-## Feature 2: ฝึกอ่าน Approval card โดยไม่ส่งจริง
+## Practice 2: ฝึกอ่าน Approval card โดยไม่ส่งจริง
 
 1. เมื่อ draft ถูกต้องแล้ว ให้ส่งข้อความนี้ **เฉพาะเมื่อ Facilitator ยืนยันว่าเป็น test mailbox**:
 

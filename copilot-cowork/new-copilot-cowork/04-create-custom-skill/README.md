@@ -8,7 +8,7 @@
 
 ---
 
-## Feature 1: สร้าง Skill ผ่าน Customize
+## Practice 1: สร้าง Skill ผ่าน Customize
 
 1. เปิด **Customize** จากเมนู Cowork แล้วเลือก **Skills**
 
@@ -42,7 +42,7 @@
 7. ตรวจสอบว่า Cowork บันทึก Skill ไว้ในโฟลเดอร์ `My Files/Document/Cowork/Skills` แล้ว
 ---
 
-## Feature 2: เปิด conversation ใหม่และทดลองใช้ Skill
+## Practice 2: เปิด conversation ใหม่และทดลองใช้ Skill
 
 1. เลือก **+ New Task** เพื่อเริ่ม conversation ใหม่
 

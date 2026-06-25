@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: สร้างไฟล์ .agent.md
+## Practice 1: สร้างไฟล์ .agent.md
 
 1. คัดลอกชื่อและที่อยู่ไฟล์ด้านล่างนี้ไว้:
 
@@ -49,7 +49,7 @@
 
 ---
 
-## Feature 2: ใช้ Agent ตรวจงานก่อนเปิด PR
+## Practice 2: ใช้ Agent ตรวจงานก่อนเปิด PR
 
 1. เปิด Copilot Chat แล้วคลิก dropdown สำหรับเลือก agent
 2. เลือก **Code Reviewer**

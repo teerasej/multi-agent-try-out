@@ -24,7 +24,7 @@
 
 ---
 
-## Feature 1: Sign In และเปิด Cowork
+## Practice 1: Sign In และเปิด Cowork
 
 1. เปิด Microsoft Edge หรือ Google Chrome แล้วไปที่ **[https://m365.cloud.microsoft](https://m365.cloud.microsoft)**
 
@@ -34,7 +34,7 @@
 
 4. ถ้าไม่เห็น tab Cowork ให้แจ้งผู้จัดงานทันที ไม่ต้องค้นหาใน **Agents** หรือ **Agent Store** เพราะ Cowork เป็น tab หลักของ Microsoft 365 Copilot แล้ว
 
-## Feature 2: รู้จักหน้า Cowork
+## Practice 2: รู้จักหน้า Cowork
 
 เมื่อหน้า Cowork เปิดขึ้น ให้ใช้เวลา 2–3 นาทีสังเกตส่วนต่อไปนี้:
 
@@ -47,7 +47,7 @@
 
 > **⚠️ หมายเหตุ:** อย่าเปลี่ยน model, เพิ่ม Plugin หรือเปิด Browser use ใน workshop นี้ เว้นแต่ Facilitator ประกาศให้ทำ
 
-## Feature 3: เพิ่ม Work Context และดู Side panel
+## Practice 3: เพิ่ม Work Context และดู Side panel
 
 1. กดปุ่ม **+ New Task** จากเมนู Cowork ด้านซ้ายบน เพื่อสร้าง task สั้น ๆ จากช่องพิมพ์ prompt บนหน้า Cowork
    ![alt text](images/cowork-new-task.png)

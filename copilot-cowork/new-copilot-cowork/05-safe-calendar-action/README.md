@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: เตรียม private calendar event
+## Practice 1: เตรียม private calendar event
 
 1. เปิด Cowork task ใหม่
 

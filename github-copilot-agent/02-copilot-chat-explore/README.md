@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: เปิด Copilot Chat และเลือก Model
+## Practice 1: เปิด Copilot Chat และเลือก Model
 
 1. ใน Codespaces กดไอคอน **GitHub Copilot** ที่ Sidebar ด้านซ้าย (ไอคอนรูปดาวหรือฟองคำพูด) เพื่อเปิด Chat panel
 
@@ -18,7 +18,7 @@
 
 ---
 
-## Feature 2: ถามให้ Copilot อธิบาย Architecture
+## Practice 2: ถามให้ Copilot อธิบาย Architecture
 
 1. ในช่อง Chat ให้พิมพ์หรือวาง Prompt ด้านล่างแล้วกด Enter:
 

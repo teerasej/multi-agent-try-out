@@ -6,7 +6,7 @@
 
 ---
 
-## Feature 1: สร้าง Excel Action Tracker จาก Output เดิม
+## Practice 1: สร้าง Excel Action Tracker จาก Output เดิม
 
 1. กลับไปที่ Cowork task ที่สร้าง Decision Log จาก Exercise 02
 
@@ -29,7 +29,7 @@
 
 ---
 
-## Feature 2: ตรวจสอบ Task Tracker
+## Practice 2: ตรวจสอบ Task Tracker
 
 1. เปิด preview ของ Excel จาก **Output** ใน Side panel
 

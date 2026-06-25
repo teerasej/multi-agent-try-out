@@ -8,14 +8,14 @@ Workshop นี้ใช้สถานการณ์จำลอง **Customer
 
 | เวลา | กิจกรรม |
 |---|---|
-| 09:30–09:38 | Welcome และภาพรวม Cowork |
-| 09:38–10:00 | Exercise 01 — Work context และ Word output ใน OneDrive |
-| 10:00–10:18 | Exercise 02 — Excel Recovery Action Register |
-| 10:18–10:30 | Exercise 03 — Executive Recovery Update |
+| 09:30–09:40 | Welcome และภาพรวม Cowork |
+| 09:40–10:00 | Exercise 01 — Work context และ Word output ใน OneDrive |
+| 10:00–10:15 | Exercise 02 — Excel Recovery Action Register |
+| 10:15–10:30 | Exercise 03 — Executive Recovery Update |
 | 10:30–10:45 | Break |
 | 10:45–11:00 | Exercise 04 — Custom Skill |
-| 11:00–11:12 | Exercise 05 — Safe calendar action และ approval |
-| 11:12–11:20 | Exercise 06 — Scheduled recovery briefing |
+| 11:00–11:10 | Exercise 05 — Safe calendar action และ approval |
+| 11:10–11:20 | Exercise 06 — Scheduled recovery briefing |
 | 11:20–11:25 | Review และ next steps |
 
 ## ลำดับแบบฝึกหัด

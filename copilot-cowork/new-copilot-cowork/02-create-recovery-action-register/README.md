@@ -2,7 +2,7 @@
 
 🔑 ต้องทำ Exercise 01 ให้เสร็จใน **Cowork task เดิม** และเห็นไฟล์ `Executive Situation Summary` ใน Output แล้ว
 
-ในข้อนี้จะเพิ่มข้อมูลเชิงตัวเลขจาก `service-performance-dashboard.xlsx` แล้วให้ Cowork สร้าง Excel recovery action register ที่ตรวจสอบย้อนกลับได้จาก Word output และ dashboard
+ในข้อนี้จะเพิ่มข้อมูลเชิงตัวเลขจาก `service-performance-dashboard.xlsx` แล้วให้ Cowork สร้าง recovery action register ในรูปแบบไฟล์ Excel เพื่อสรุปงานกู้คืนที่ต้องดำเนินการ ระบุ owner สถานะ และสิ่งที่ต้องตัดสินใจ พร้อมตรวจสอบย้อนกลับได้จาก Word output และ dashboard
 
 ---
 
@@ -39,7 +39,7 @@
    ```
    approve
    ```
-1. ระหว่างทำงาน ให้สังเกตว่า Cowork โหลด Skill **Excel** และมีไฟล์ใหม่ถูกสร้างใน Output
+7. ระหว่างทำงาน ให้สังเกตว่า Cowork โหลด Skill **Excel** และมีไฟล์ใหม่ถูกสร้างใน Output
 
 ---
 

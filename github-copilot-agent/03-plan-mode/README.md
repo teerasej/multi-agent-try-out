@@ -28,7 +28,7 @@
    Add a character count that shows below the note content text area, updating in real-time as the user types.
    ```
 
-2. รอ Copilot อ่านโค้ดและสร้าง Plan — คุณจะเห็น:
+2. รอ Copilot อ่านโค้ดและสร้าง Plan — พวกเราจะเห็น:
    - **สรุปงานโดยรวม** (High-level summary)
    - **ขั้นตอนย่อย** (Step-by-step breakdown)
    - **คำถามสำหรับข้อมูลที่ยังไม่ชัดเจน** (ถ้ามี)
@@ -41,7 +41,7 @@
 
 1. กดปุ่ม **Start Implementation** ที่ปรากฏด้านล่าง Plan
 
-2. Copilot จะเปลี่ยนเป็น Agent Mode และเริ่มแก้ไขไฟล์ให้อัตโนมัติ แต่ถ้ามีการใช้ tools ต่างๆ จะมีขั้นตอนให้กด Confirm เป็นระยะๆ เพื่อให้คุณควบคุมการทำงานได้
+2. Copilot จะเปลี่ยนเป็น Agent Mode และเริ่มแก้ไขไฟล์ให้อัตโนมัติ แต่ถ้ามีการใช้ tools ต่างๆ จะมีขั้นตอนให้กด Confirm เป็นระยะๆ เพื่อให้พวกเราควบคุมการทำงานได้
 3. ในที่นี้เราจะเปิดโหมด Auto Approve ให้คลิกที่ด้านข้างของปุ่ม **Allow** และเลือก **Enable Auto Approve** และกดยืนยัน
 
    ![allow tools](./assets/allow-tools.png)
@@ -56,7 +56,7 @@
 
 ## สรุป
 
-คุณได้ใช้ Plan Mode เพื่อวางแผนและ Start Implementation ได้สำเร็จแล้ว สังเกตว่า Plan Mode ช่วยให้เรา "เห็นภาพ" ก่อนว่า AI จะทำอะไรบ้าง ก่อนที่มันจะเริ่มแก้โค้ดจริง ๆ ในแบบฝึกหัดถัดไป เราจะใช้ **Agent Mode** โดยตรงกัน
+พวกเราได้ใช้ Plan Mode เพื่อวางแผนและ Start Implementation ได้สำเร็จแล้ว สังเกตว่า Plan Mode ช่วยให้เรา "เห็นภาพ" ก่อนว่า AI จะทำอะไรบ้าง ก่อนที่มันจะเริ่มแก้โค้ดจริง ๆ ในแบบฝึกหัดถัดไป เราจะใช้ **Agent Mode** โดยตรงกัน
 
 ---
 

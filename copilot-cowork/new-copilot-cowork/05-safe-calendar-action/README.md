@@ -35,6 +35,6 @@
 
 ## สรุป
 
-คุณได้เห็นว่า Cowork จะหยุดรอให้ตรวจและอนุมัติก่อนทำ action ที่มีผลจริงกับ calendar
+พวกเราได้เห็นว่า Cowork จะหยุดรอให้ตรวจและอนุมัติก่อนทำ action ที่มีผลจริงกับ calendar
 
 แบบฝึกหัดถัดไป: [Exercise 06: ตั้ง Scheduled recovery briefing](../06-scheduled-recovery-briefing/README.md)

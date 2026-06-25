@@ -55,6 +55,6 @@
 
 ## สรุป
 
-คุณได้แปลงหลักฐานเชิงข้อความและตัวเลขเป็น Excel register ที่พร้อมติดตามงานแล้ว
+พวกเราได้แปลงหลักฐานเชิงข้อความและตัวเลขเป็น Excel register ที่พร้อมติดตามงานแล้ว
 
 แบบฝึกหัดถัดไป: [Exercise 03: สร้าง Executive Recovery Update](../03-create-executive-recovery-update/README.md)

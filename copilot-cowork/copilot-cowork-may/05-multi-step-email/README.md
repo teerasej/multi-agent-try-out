@@ -53,6 +53,6 @@
 
 ## สรุป
 
-คุณได้ทำ workflow ข้าม Word, Excel, PowerPoint และ Email ใน Cowork task เดียว พร้อมตรวจข้อมูลและหยุดการกระทำที่มีผลจริงก่อนส่งออกไป
+พวกเราได้ทำ workflow ข้าม Word, Excel, PowerPoint และ Email ใน Cowork task เดียว พร้อมตรวจข้อมูลและหยุดการกระทำที่มีผลจริงก่อนส่งออกไป
 
 หากต้องการทดลองความสามารถแบบตั้งเวลา ให้ทำต่อที่ [Exercise 06 (Optional): ตั้ง Scheduled Briefing](../06-scheduled-briefing/README.md)

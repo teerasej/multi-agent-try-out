@@ -42,7 +42,7 @@
 
 1. ช่องพิมพ์งานและ Suggested prompts เช่น Catch me up หรือ Prep for a meeting
 2. ตัวเลือก model ที่มุมบนซ้าย — ใช้ **Auto** ตลอด workshop นี้
-3. My Task: แสดงงานล่าสุดและ task ที่คุณสร้างไว้เพื่อกับไปทำต่อได้
+3. My Task: แสดงงานล่าสุดและ task ที่พวกเราสร้างไว้เพื่อกับไปทำต่อได้
 4. Scheduled สำหรับงานที่ตั้งเวลา และ Customize สำหรับ Plugins/Skills (อาจไม่แสดงในทุก tenant)
 
 > **⚠️ หมายเหตุ:** อย่าเปลี่ยน model, เพิ่ม Plugin หรือเปิด Browser use ใน workshop นี้ เว้นแต่ Facilitator ประกาศให้ทำ
@@ -72,13 +72,13 @@
    - **Skills** ที่ Cowork โหลดมาใช้
    - **Permissions** และ **Schedule** ถ้ามี
 
-5. เมื่อได้ผลลัพธ์แล้ว ให้เปิด task นี้จาก Tasks/Search อีกครั้ง เพื่อยืนยันว่าคุณสามารถกลับมาทำงานต่อจาก task เดิมได้
+5. เมื่อได้ผลลัพธ์แล้ว ให้เปิด task นี้จาก Tasks/Search อีกครั้ง เพื่อยืนยันว่าพวกเราสามารถกลับมาทำงานต่อจาก task เดิมได้
    ![alt text](images/cowork-my-task.png)
 ---
 
 ## สรุป
 
-คุณได้เปิด Cowork จาก tab ที่ถูกต้อง, เตรียม work context และรู้จัก Side panel แล้ว **ให้เก็บ task นี้ไว้** เพราะ Exercise 02–05 จะทำต่อใน task เดียวกัน
+พวกเราได้เปิด Cowork จาก tab ที่ถูกต้อง, เตรียม work context และรู้จัก Side panel แล้ว **ให้เก็บ task นี้ไว้** เพราะ Exercise 02–05 จะทำต่อใน task เดียวกัน
 
 ---
 

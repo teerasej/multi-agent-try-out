@@ -52,6 +52,6 @@
 
 ## สรุป
 
-คุณได้แปลงข้อมูลจาก Word เป็น Excel ใน Cowork task เดิมแล้ว Exercise ถัดไปจะนำทั้ง Decision Log และ Action Tracker ไปสร้าง PowerPoint summary
+พวกเราได้แปลงข้อมูลจาก Word เป็น Excel ใน Cowork task เดิมแล้ว Exercise ถัดไปจะนำทั้ง Decision Log และ Action Tracker ไปสร้าง PowerPoint summary
 
 แบบฝึกหัดถัดไป: [Exercise 04: สร้าง Presentation จาก Decision Log และ Tracker](../04-create-presentation-from-file/README.md)

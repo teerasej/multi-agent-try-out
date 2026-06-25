@@ -28,13 +28,13 @@
 
 ### 3. เปิดใช้งาน GitHub Copilot สำหรับ Free Account
 
-- เช็คว่าบัญชีของคุณมีสิทธิ์ใช้งาน GitHub Copilot หรือไม่ โดยไปที่ https://github.com/settings/copilot/features
+- เช็คว่าบัญชีของพวกเรามีสิทธิ์ใช้งาน GitHub Copilot หรือไม่ โดยไปที่ https://github.com/settings/copilot/features
 
 [![วิธีเปิดใช้งาน GitHub Copilot](./assets/activate-github-copilot-activation.png)](https://www.youtube.com/watch?v=KQswAnDgf2g)
 
 ### 4. ทดสอบด้วยตัวเอง (3 นาที)
 
-1. Sign in เข้า [GitHub.com](https://github.com) ด้วยบัญชีของคุณ
+1. Sign in เข้า [GitHub.com](https://github.com) ด้วยบัญชีของพวกเรา
 2. เปิด Repository ใดก็ได้ในเบราว์เซอร์
 3. กดเปิดเมนูของ Github Profile จากด้านบนขวา > ลงมาเลือกเมนูของ GitHub Copilot 
    ![alt text](assets/open-copilot-setting.png)

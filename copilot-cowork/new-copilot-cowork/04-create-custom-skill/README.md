@@ -63,6 +63,6 @@
 
 ## สรุป
 
-คุณได้สร้างมาตรฐานการเขียน executive brief ที่ Cowork ค้นพบและใช้ซ้ำได้ใน conversation ใหม่
+พวกเราได้สร้างมาตรฐานการเขียน executive brief ที่ Cowork ค้นพบและใช้ซ้ำได้ใน conversation ใหม่
 
 แบบฝึกหัดถัดไป: [Exercise 05: ฝึก Safe calendar action](../05-safe-calendar-action/README.md)

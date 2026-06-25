@@ -54,6 +54,6 @@
 
 ## สรุป
 
-คุณได้รวมหลักฐานจากหลาย Office files เป็น PowerPoint ที่อ่านเพื่อการตัดสินใจได้เร็วแล้ว
+พวกเราได้รวมหลักฐานจากหลาย Office files เป็น PowerPoint ที่อ่านเพื่อการตัดสินใจได้เร็วแล้ว
 
 แบบฝึกหัดถัดไป: [Exercise 04: สร้าง Custom Skill](../04-create-custom-skill/README.md)

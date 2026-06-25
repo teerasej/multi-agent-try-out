@@ -32,7 +32,7 @@
 
    ![Create Codespace button](./assets/github-codespace-create.png)
 
-4. รอให้ Codespaces ตั้งค่าเสร็จ (ใช้เวลาประมาณ 1–2 นาที) — คุณจะเห็น VS Code เปิดขึ้นมาในเบราว์เซอร์
+4. รอให้ Codespaces ตั้งค่าเสร็จ (ใช้เวลาประมาณ 1–2 นาที) — พวกเราจะเห็น VS Code เปิดขึ้นมาในเบราว์เซอร์
 
 5. เปิด **Copilot Chat** panel ด้านขวาใน VS Code แล้วพิมพ์ Prompt นี้:
 
@@ -50,7 +50,7 @@
 
 ## สรุป
 
-คุณได้ Fork repository และเปิด Codespaces เพื่อเขียนโค้ดในเบราว์เซอร์สำเร็จแล้ว ขั้นต่อไปเราจะเริ่มใช้ **GitHub Copilot Chat** เพื่อสำรวจโปรเจกต์นี้ด้วยกัน
+พวกเราได้ Fork repository และเปิด Codespaces เพื่อเขียนโค้ดในเบราว์เซอร์สำเร็จแล้ว ขั้นต่อไปเราจะเริ่มใช้ **GitHub Copilot Chat** เพื่อสำรวจโปรเจกต์นี้ด้วยกัน
 
 ---
 

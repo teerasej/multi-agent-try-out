@@ -56,6 +56,6 @@
 
 ## สรุป
 
-คุณมี Word Decision Log ที่ตรวจสอบย้อนกลับได้แล้ว และยังอยู่ใน Cowork task เดิม ใน Exercise 03 เราจะใช้ output นี้สร้าง Excel action tracker ต่อทันที
+พวกเรามี Word Decision Log ที่ตรวจสอบย้อนกลับได้แล้ว และยังอยู่ใน Cowork task เดิม ใน Exercise 03 เราจะใช้ output นี้สร้าง Excel action tracker ต่อทันที
 
 แบบฝึกหัดถัดไป: [Exercise 03: แปลง Decision Log เป็น Task Tracker ด้วย Cowork](../03-create-spreadsheet/README.md)

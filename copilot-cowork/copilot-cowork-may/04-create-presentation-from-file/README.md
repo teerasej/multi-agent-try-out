@@ -54,6 +54,6 @@
 
 ## สรุป
 
-คุณได้รวม narrative จาก Decision Log และข้อมูลติดตามงานจาก Action Tracker เป็น presentation เดียวที่ตรวจสอบได้แล้ว ใน Exercise 05 เราจะใช้ output เดิมทั้งหมดเพื่อร่าง follow-up email และฝึกตรวจ approval card อย่างปลอดภัย
+พวกเราได้รวม narrative จาก Decision Log และข้อมูลติดตามงานจาก Action Tracker เป็น presentation เดียวที่ตรวจสอบได้แล้ว ใน Exercise 05 เราจะใช้ output เดิมทั้งหมดเพื่อร่าง follow-up email และฝึกตรวจ approval card อย่างปลอดภัย
 
 แบบฝึกหัดถัดไป: [Exercise 05: งานหลายขั้นตอน — ร่าง Follow-up Email จากไฟล์ที่สร้างไว้](../05-multi-step-email/README.md)

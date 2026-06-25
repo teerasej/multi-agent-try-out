@@ -2,14 +2,12 @@
 
 ยินดีต้อนรับสู่ **Multi-Agent Try-Out** — งาน Hands-on สำหรับสำรวจความสามารถของ AI Agent Services ด้วยตัวเองครับ
 
-> สำหรับผู้เข้าร่วม: ดูข้อมูลบัญชีที่เตรียมไว้ได้ที่ [provided-account.md](./provided-account.md)
-
 Event นี้แบ่งออกเป็น 2 Track:
 
-| Track | กลุ่มเป้าหมาย | เครื่องมือ |
-|---|---|---|
-| **Session 1** | นักพัฒนา (Developer) | GitHub Copilot Agent Mode + Codespaces |
-| **Session 2** | ผู้ใช้งานทั่วไป (Business User) | Microsoft 365 Copilot — Cowork |
+| Track | กลุ่มเป้าหมาย | เครื่องมือ | บัญชีที่ใช้ |
+|---|---|---|---|
+| **Session 1** | ผู้ใช้งานทั่วไป (Business User) | Microsoft 365 Copilot — Cowork | [M365 Copilot Account](./provided-account.md) |
+| **Session 2** | นักพัฒนา (Developer) | GitHub Copilot Agent Mode + Codespaces | ใช้บัญชี GitHub Copilot ของตนเอง |
 
 ---
 

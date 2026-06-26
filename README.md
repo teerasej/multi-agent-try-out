@@ -4,10 +4,10 @@
 
 Event นี้แบ่งออกเป็น 2 Track:
 
-| Track | กลุ่มเป้าหมาย | เครื่องมือ | บัญชีที่ใช้ |
-|---|---|---|---|
-| **Session 1** | ผู้ใช้งานทั่วไป (Business User) | Microsoft 365 Copilot — Cowork | [M365 Copilot Account](./provided-account.md) |
-| **Session 2** | นักพัฒนา (Developer) | GitHub Copilot Agent Mode + Codespaces | ใช้บัญชี GitHub Copilot ของตนเอง |
+| Track | กลุ่มเป้าหมาย | เครื่องมือ | บัญชีที่ใช้ | Presentation |
+|---|---|---|---|---|
+| **Session 1** | ผู้ใช้งานทั่วไป (Business User) | Microsoft 365 Copilot — Cowork | [M365 Copilot Account](./provided-account.md) | [Session 1 Presentation](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/IQAc8e1C0VNLSLPte4onOoybAR-M0jlnROrg8qNjITFMWUU?e=b3Otpv) |
+| **Session 2** | นักพัฒนา (Developer) | GitHub Copilot Agent Mode + Codespaces | ใช้บัญชี GitHub Copilot ของตนเอง | [Session 2 Presentation](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/IQDv5rn-7SXwTo5VgqFj9YFiAeBxDl8_oPhmEUFwrBIqD7U?e=F7IB93) |
 
 ---
 

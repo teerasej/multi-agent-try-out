@@ -1,7 +1,7 @@
 # macOS Finder metadata
 .DS_Store
 **/.DS_Store
-
+.research/
 # Python
 *.py
 __pycache__/
